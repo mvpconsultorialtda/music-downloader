@@ -1,0 +1,9 @@
+{
+    "filter_after_2025": true,
+    "output_dir": "output/raul_sena_2025_mar",
+    "split_enabled": false,
+    "split_max_minutes": 15,
+    "split_min_minutes": 5,
+    "split_threshold_minutes": 20,
+    "allowed_channels": ["Investidor Sardinha l Raul Sena"]
+}

@@ -1,0 +1,34 @@
+Reading queries from 'input' directory...
+Found 2 queries.
+Estrategia: 1 → 2 → 3 sequencial, depois 17 em paralelo (5 workers)
+
+Initializing FFmpeg...
+Date filter enabled: strict 2025 only
+
+=== FASE SEQUENCIAL: 2 faixas ===
+
+[1/2] Sequencial:
+
+--- [direct URL] https://www.youtube.com/watch?v=7d1irGYISx0 ---
+[youtube] Extracting URL: https://www.youtube.com/watch?v=7d1irGYISx0
+[youtube] 7d1irGYISx0: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 7d1irGYISx0: Downloading android vr player API JSON
+WARNING: [youtube] 7d1irGYISx0: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[info] 7d1irGYISx0: Downloading 1 format(s): 18
+ERROR: unable to download video data: HTTP Error 403: Forbidden
+Error downloading 'https://www.youtube.com/watch?v=7d1irGYISx0': ERROR: unable to download video data: HTTP Error 403: Forbidden
+
+[2/2] Sequencial:
+
+--- [direct URL] https://www.youtube.com/watch?v=mbwbRdenzCc ---
+[youtube] Extracting URL: https://www.youtube.com/watch?v=mbwbRdenzCc
+[youtube] mbwbRdenzCc: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] mbwbRdenzCc: Downloading android vr player API JSON
+WARNING: [youtube] mbwbRdenzCc: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[info] mbwbRdenzCc: Downloading 1 format(s): 18
+ERROR: unable to download video data: HTTP Error 403: Forbidden
+Error downloading 'https://www.youtube.com/watch?v=mbwbRdenzCc': ERROR: unable to download video data: HTTP Error 403: Forbidden
+
+All downloads processed. Check the 'output' folder.

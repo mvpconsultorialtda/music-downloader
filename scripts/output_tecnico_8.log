@@ -1,0 +1,1497 @@
+Reading queries from 'input' directory...
+Found 30 queries.
+Estrategia: 1 → 2 → 3 sequencial, depois 17 em paralelo (5 workers)
+
+Initializing FFmpeg...
+Adding existing file to history: A_ECONOMIA_DO_JAPAO_PODE_COLAPSAR_O_MUNDO_vai_estourar_a_bolha - 18-12-2025
+Adding existing file to history: Como_comprar_BITCOIN_anonimamente_Tutorial - 21-07-2025
+Adding existing file to history: Earnings_Yield_-_O_indicador_dos_sonhos - 07-01-2025
+Adding existing file to history: VOU_INVESTIR_NA_BOLSA_DA_ARGENTINA_172%_DE_ALTA_NO_ANO - 02-01-2025
+Date filter enabled: strict 2025 only
+
+=== FASE SEQUENCIAL: 3 faixas ===
+
+[1/3] Sequencial:
+
+--- [search] Investidor Sardinha Raul Sena value investing fundamentos ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena value investing fundamentos
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena value investing fundamentos
+[download] Downloading playlist: Investidor Sardinha Raul Sena value investing fundamentos
+[youtube:search] query "Investidor Sardinha Raul Sena value investing fundamentos": Downloading web client config
+[youtube:search] query "Investidor Sardinha Raul Sena value investing fundamentos" page 1: Downloading API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena value investing fundamentos: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=g0XIYKOuZBE
+[youtube] g0XIYKOuZBE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] g0XIYKOuZBE: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=bx-sTOSteRA
+[youtube] bx-sTOSteRA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] bx-sTOSteRA: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=kHuvC-gYTPw
+[youtube] kHuvC-gYTPw: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] kHuvC-gYTPw: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=gMpO2fR4YGI
+[youtube] gMpO2fR4YGI: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] gMpO2fR4YGI: Downloading android vr player API JSON
+[info] gMpO2fR4YGI: Downloading 1 format(s): 251
+[download] Destination: output\raul_sena_2025_new\ONDE_EU_INVESTI_EM_JANEIRO_MINHA_ESTRATEGIA_PARA_2025 - 22-01-2025.webm
+[download]   0.0% of   13.84MiB at  317.39KiB/s ETA 00:44[download]   0.0% of   13.84MiB at  773.24KiB/s ETA 00:18[download]   0.0% of   13.84MiB at    1.60MiB/s ETA 00:08[download]   0.1% of   13.84MiB at    3.17MiB/s ETA 00:04[download]   0.2% of   13.84MiB at    1.70MiB/s ETA 00:08[download]   0.4% of   13.84MiB at    2.74MiB/s ETA 00:05[download]   0.9% of   13.84MiB at    1.54MiB/s ETA 00:08[download]   1.8% of   13.84MiB at    1.90MiB/s ETA 00:07[download]   3.6% of   13.84MiB at    2.04MiB/s ETA 00:06[download]   7.2% of   13.84MiB at    1.76MiB/s ETA 00:07[download]  14.4% of   13.84MiB at    1.57MiB/s ETA 00:07[download]  24.7% of   13.84MiB at    1.14MiB/s ETA 00:09[download]  30.6% of   13.84MiB at    1.13MiB/s ETA 00:08[download]  38.5% of   13.84MiB at    1.10MiB/s ETA 00:07[download]  45.7% of   13.84MiB at    1.04MiB/s ETA 00:07[download]  51.4% of   13.84MiB at    1.07MiB/s ETA 00:06[download]  62.1% of   13.84MiB at    1.06MiB/s ETA 00:04[download]  69.0% of   13.84MiB at    1.08MiB/s ETA 00:03[download]  69.0% of   13.84MiB at  154.59KiB/s ETA 00:28[download]  69.0% of   13.84MiB at  408.93KiB/s ETA 00:10[download]  69.0% of   13.84MiB at  893.22KiB/s ETA 00:04[download]  69.1% of   13.84MiB at    1.67MiB/s ETA 00:02[download]  69.2% of   13.84MiB at    2.05MiB/s ETA 00:02[download]  69.4% of   13.84MiB at    1.41MiB/s ETA 00:02[download]  69.9% of   13.84MiB at    1.12MiB/s ETA 00:03[download]  70.8% of   13.84MiB at    1.09MiB/s ETA 00:03[download]  72.6% of   13.84MiB at  751.59KiB/s ETA 00:05[download]  76.2% of   13.84MiB at  843.62KiB/s ETA 00:04[download]  83.0% of   13.84MiB at  913.07KiB/s ETA 00:02[download]  90.0% of   13.84MiB at    1.03MiB/s ETA 00:01[download] 100.0% of   13.84MiB at    1.07MiB/s ETA 00:00[download] 100% of   13.84MiB in 00:00:13 at 1.04MiB/s   
+[History] Saving verified download: ONDE EU INVESTI EM JANEIRO? MINHA ESTRATÉGIA PARA 2025!
+
+[ExtractAudio] Destination: output\raul_sena_2025_new\ONDE_EU_INVESTI_EM_JANEIRO_MINHA_ESTRATEGIA_PARA_2025 - 22-01-2025.mp3
+Deleting original file output\raul_sena_2025_new\ONDE_EU_INVESTI_EM_JANEIRO_MINHA_ESTRATEGIA_PARA_2025 - 22-01-2025.webm (pass -k to keep)
+[info] Maximum number of downloads reached, stopping due to --max-downloads
+Error downloading 'Investidor Sardinha Raul Sena value investing fundamentos': Maximum number of downloads reached, stopping due to --max-downloads
+
+[2/3] Sequencial:
+
+--- [search] Investidor Sardinha Raul Sena ROE ROIC analise empresa ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena ROE ROIC analise empresa
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena ROE ROIC analise empresa
+[download] Downloading playlist: Investidor Sardinha Raul Sena ROE ROIC analise empresa
+[youtube:search] query "Investidor Sardinha Raul Sena ROE ROIC analise empresa": Downloading web client config
+[youtube:search] query "Investidor Sardinha Raul Sena ROE ROIC analise empresa" page 1: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena ROE ROIC analise empresa" page 2: Downloading API JSON
+WARNING: [youtube:search] Incomplete data received. Retrying (1/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena ROE ROIC analise empresa" page 2: Downloading API JSON
+WARNING: [youtube:search] Incomplete data received. Retrying (2/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena ROE ROIC analise empresa" page 2: Downloading API JSON
+WARNING: [youtube:search] Incomplete data received. Retrying (3/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena ROE ROIC analise empresa" page 2: Downloading API JSON
+WARNING: [youtube:search] Incomplete data received. Giving up after 3 retries
+[youtube:search] Playlist Investidor Sardinha Raul Sena ROE ROIC analise empresa: Downloading 3 items of 3
+[download] Video already in history
+[download] Downloading item 2 of 3
+[youtube] Extracting URL: https://www.youtube.com/watch?v=rDOjAVoyaUs
+[youtube] rDOjAVoyaUs: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] rDOjAVoyaUs: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 3 of 3
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Uq3xtxMt3QM
+[youtube] Uq3xtxMt3QM: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Uq3xtxMt3QM: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena ROE ROIC analise empresa
+
+[3/3] Sequencial:
+
+--- [search] Investidor Sardinha Raul Sena P/VP ações descontadas ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena P/VP ações descontadas
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena P/VP ações descontadas
+[download] Downloading playlist: Investidor Sardinha Raul Sena P/VP ações descontadas
+[youtube:search] query "Investidor Sardinha Raul Sena P/VP ações descontadas": Downloading web client config
+[youtube:search] query "Investidor Sardinha Raul Sena P/VP ações descontadas" page 1: Downloading API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena P/VP ações descontadas: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Hk5dOlWkwtA
+[youtube] Hk5dOlWkwtA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Hk5dOlWkwtA: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Video already in history
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=aHpPFAiM8ak
+[youtube] aHpPFAiM8ak: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] aHpPFAiM8ak: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=0DdzccDImC0
+[youtube] 0DdzccDImC0: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 0DdzccDImC0: Downloading android vr player API JSON
+[info] 0DdzccDImC0: Downloading 1 format(s): 251
+[download] Destination: output\raul_sena_2025_new\Acoes_estao_de_graca_e_os_burros_estao_comprando - 03-10-2025.webm
+[download]   0.0% of   16.77MiB at   27.28KiB/s ETA 10:29[download]   0.0% of   16.77MiB at   80.92KiB/s ETA 03:32[download]   0.0% of   16.77MiB at  183.98KiB/s ETA 01:33[download]   0.1% of   16.77MiB at  388.30KiB/s ETA 00:44[download]   0.2% of   16.77MiB at  790.28KiB/s ETA 00:21[download]   0.4% of   16.77MiB at  693.74KiB/s ETA 00:24[download]   0.7% of   16.77MiB at  557.51KiB/s ETA 00:30[download]   1.5% of   16.77MiB at  578.12KiB/s ETA 00:29[download]   3.0% of   16.77MiB at  372.25KiB/s ETA 00:44[download]   4.6% of   16.77MiB at  108.89KiB/s ETA 02:30[download]   5.4% of   16.77MiB at  120.92KiB/s ETA 02:14[download]   7.0% of   16.77MiB at  151.38KiB/s ETA 01:45[download]  10.2% of   16.77MiB at  201.84KiB/s ETA 01:16[download]  14.5% of   16.77MiB at  274.60KiB/s ETA 00:53[download]  23.1% of   16.77MiB at  369.16KiB/s ETA 00:35[download]  28.2% of   16.77MiB at  414.61KiB/s ETA 00:29[download]  33.6% of   16.77MiB at  467.01KiB/s ETA 00:24[download]  41.5% of   16.77MiB at  518.17KiB/s ETA 00:19[download]  47.2% of   16.77MiB at  551.69KiB/s ETA 00:16[download]  53.3% of   16.77MiB at  560.66KiB/s ETA 00:14[download]  57.0% of   16.77MiB at  576.95KiB/s ETA 00:12[download]  57.6% of   16.77MiB at  580.06KiB/s ETA 00:12[download]  57.6% of   16.77MiB at   56.63KiB/s ETA 02:08[download]  57.6% of   16.77MiB at  160.34KiB/s ETA 00:45[download]  57.7% of   16.77MiB at  361.63KiB/s ETA 00:20[download]  57.7% of   16.77MiB at  744.50KiB/s ETA 00:09[download]  57.8% of   16.77MiB at    1.14MiB/s ETA 00:06[download]  58.0% of   16.77MiB at    1.57MiB/s ETA 00:04[download]  58.4% of   16.77MiB at    1.27MiB/s ETA 00:05[download]  59.1% of   16.77MiB at    1.08MiB/s ETA 00:06[download]  60.6% of   16.77MiB at  787.17KiB/s ETA 00:08[download]  63.6% of   16.77MiB at    1.04MiB/s ETA 00:05[download]  69.5% of   16.77MiB at  997.73KiB/s ETA 00:05[download]  75.0% of   16.77MiB at  905.16KiB/s ETA 00:04[download]  79.4% of   16.77MiB at  891.68KiB/s ETA 00:03[download]  84.3% of   16.77MiB at  887.82KiB/s ETA 00:03[download]  89.4% of   16.77MiB at  856.51KiB/s ETA 00:02[download]  93.6% of   16.77MiB at  808.32KiB/s ETA 00:01[download]  96.9% of   16.77MiB at  776.49KiB/s ETA 00:00[download] 100.0% of   16.77MiB at  766.18KiB/s ETA 00:00[download] 100% of   16.77MiB in 00:00:27 at 633.52KiB/s 
+[History] Saving verified download: Ações estão de graça e os burros estão comprando?
+
+[ExtractAudio] Destination: output\raul_sena_2025_new\Acoes_estao_de_graca_e_os_burros_estao_comprando - 03-10-2025.mp3
+Deleting original file output\raul_sena_2025_new\Acoes_estao_de_graca_e_os_burros_estao_comprando - 03-10-2025.webm (pass -k to keep)
+[info] Maximum number of downloads reached, stopping due to --max-downloads
+Error downloading 'Investidor Sardinha Raul Sena P/VP ações descontadas': Maximum number of downloads reached, stopping due to --max-downloads
+
+=== FASE PARALELA: 27 faixas (5 workers) ===
+
+--- [search] Investidor Sardinha Raul Sena EV EBITDA múltiplos ---
+
+--- [search] Investidor Sardinha Raul Sena beta volatilidade carteira ---
+
+--- [search] Investidor Sardinha Raul Sena VALE3 análise mineração ---
+
+--- [search] Investidor Sardinha Raul Sena PETR4 dividendos petrobras ---
+
+--- [search] Investidor Sardinha Raul Sena ITUB4 ITSA4 itaú ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena EV EBITDA múltiplos
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena EV EBITDA múltiplos
+[generic] Extracting URL: Investidor Sardinha Raul Sena beta volatilidade carteira
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena beta volatilidade carteira
+[generic] Extracting URL: Investidor Sardinha Raul Sena VALE3 análise mineração
+[generic] Extracting URL: Investidor Sardinha Raul Sena PETR4 dividendos petrobras
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena PETR4 dividendos petrobras
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena VALE3 análise mineração
+[download] Downloading playlist: Investidor Sardinha Raul Sena beta volatilidade carteira
+[youtube:search] query "Investidor Sardinha Raul Sena beta volatilidade carteira": Downloading web client config
+[generic] Extracting URL: Investidor Sardinha Raul Sena ITUB4 ITSA4 itaú
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena ITUB4 ITSA4 itaú
+[download] Downloading playlist: Investidor Sardinha Raul Sena VALE3 análise mineração
+[download] Downloading playlist: Investidor Sardinha Raul Sena EV EBITDA múltiplos
+[youtube:search] query "Investidor Sardinha Raul Sena EV EBITDA múltiplos": Downloading web client config
+[download] Downloading playlist: Investidor Sardinha Raul Sena ITUB4 ITSA4 itaú
+[youtube:search] query "Investidor Sardinha Raul Sena ITUB4 ITSA4 itaú": Downloading web client config
+[youtube:search] query "Investidor Sardinha Raul Sena VALE3 análise mineração": Downloading web client config
+[download] Downloading playlist: Investidor Sardinha Raul Sena PETR4 dividendos petrobras
+[youtube:search] query "Investidor Sardinha Raul Sena PETR4 dividendos petrobras": Downloading web client config
+[youtube:search] query "Investidor Sardinha Raul Sena EV EBITDA múltiplos" page 1: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena ITUB4 ITSA4 itaú" page 1: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena beta volatilidade carteira" page 1: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena PETR4 dividendos petrobras" page 1: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena VALE3 análise mineração" page 1: Downloading API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena EV EBITDA múltiplos: Downloading 0 items
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena EV EBITDA múltiplos
+
+--- [search] Investidor Sardinha Raul Sena BBSE3 BB seguridade ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena BBSE3 BB seguridade
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena BBSE3 BB seguridade
+[download] Downloading playlist: Investidor Sardinha Raul Sena BBSE3 BB seguridade
+[youtube:search] query "Investidor Sardinha Raul Sena BBSE3 BB seguridade": Downloading web client config
+[youtube:search] query "Investidor Sardinha Raul Sena beta volatilidade carteira" page 2: Downloading API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena ITUB4 ITSA4 itaú: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=mMQxKB0xEdo
+[youtube] mMQxKB0xEdo: Downloading webpage
+[youtube:search] Playlist Investidor Sardinha Raul Sena VALE3 análise mineração: Downloading 10 items of 10
+[download] Video already in history
+[download] Video already in history
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=vqcSj9v2A-M
+[youtube] vqcSj9v2A-M: Downloading webpage
+[youtube:search] Playlist Investidor Sardinha Raul Sena PETR4 dividendos petrobras: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=sAW6s8U00Pg
+[youtube] sAW6s8U00Pg: Downloading webpage
+WARNING: [youtube:search] Incomplete data received. Retrying (1/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena beta volatilidade carteira" page 2: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena BBSE3 BB seguridade" page 1: Downloading API JSON
+WARNING: [youtube:search] Incomplete data received. Retrying (2/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena beta volatilidade carteira" page 2: Downloading API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] mMQxKB0xEdo: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] vqcSj9v2A-M: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=T3e2VrppjPo
+[youtube] T3e2VrppjPo: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=SentViB6IPU
+[youtube] SentViB6IPU: Downloading webpage
+WARNING: [youtube:search] Incomplete data received. Retrying (3/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena beta volatilidade carteira" page 2: Downloading API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] sAW6s8U00Pg: Downloading android vr player API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena BBSE3 BB seguridade: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=PeEmfp89Cvs
+[youtube] PeEmfp89Cvs: Downloading webpage
+WARNING: [youtube] sAW6s8U00Pg: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+WARNING: [youtube:search] Incomplete data received. Giving up after 3 retries
+[youtube:search] Playlist Investidor Sardinha Raul Sena beta volatilidade carteira: Downloading 2 items of 2
+[download] Video is too old (before 2025)
+[download] Downloading item 1 of 2
+[youtube] Extracting URL: https://www.youtube.com/watch?v=E5BnYDIFSaU
+[youtube] E5BnYDIFSaU: Downloading webpage
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=vBGnqtcxato
+[youtube] vBGnqtcxato: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] T3e2VrppjPo: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=U-aF6oiY__o
+[youtube] U-aF6oiY__o: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] SentViB6IPU: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] PeEmfp89Cvs: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] E5BnYDIFSaU: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] vBGnqtcxato: Downloading android vr player API JSON
+WARNING: [youtube] vBGnqtcxato: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too new (after 2025)
+[download] Video is too old (before 2025)
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=zbW6mWxj1jc
+[youtube] zbW6mWxj1jc: Downloading webpage
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Nis4FvidQog
+[youtube] Nis4FvidQog: Downloading webpage
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=nVjupDYd-QY
+[youtube] nVjupDYd-QY: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 2 of 2
+[youtube] Extracting URL: https://www.youtube.com/watch?v=W91Kga74gNQ
+[youtube] W91Kga74gNQ: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] U-aF6oiY__o: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=QyI1tvzcaIM
+[youtube] QyI1tvzcaIM: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] nVjupDYd-QY: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Nis4FvidQog: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] zbW6mWxj1jc: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] W91Kga74gNQ: Downloading android vr player API JSON
+WARNING: [youtube] nVjupDYd-QY: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=tMFoab3FAhk
+[youtube] tMFoab3FAhk: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] QyI1tvzcaIM: Downloading android vr player API JSON
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=1Ou6UZVvBEU
+[youtube] 1Ou6UZVvBEU: Downloading webpage
+[download] Video is too old (before 2025)
+[info] W91Kga74gNQ: Downloading 1 format(s): 251
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=hlEOOamt7cQ
+[youtube] hlEOOamt7cQ: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=3QVs1Liw0BI
+[youtube] 3QVs1Liw0BI: Downloading webpage
+[download] Destination: output\raul_sena_2025_new\O_que_esta_acontecendo_com_a_Bolsa_AGORA_Analise_Atualizada - 15-04-2025.webm
+[download]   0.0% of   17.06MiB at   28.28KiB/s ETA 10:17[download]   0.0% of   17.06MiB at   83.77KiB/s ETA 03:28[download]   0.0% of   17.06MiB at  194.13KiB/s ETA 01:29[download]   0.1% of   17.06MiB at  413.41KiB/s ETA 00:42[download]   0.2% of   17.06MiB at   86.74KiB/s ETA 03:20[download]   0.4% of   17.06MiB at  138.87KiB/s ETA 02:05[download]   0.7% of   17.06MiB at  241.02KiB/s ETA 01:11WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 1Ou6UZVvBEU: Downloading android vr player API JSON
+[download]   1.5% of   17.06MiB at  401.09KiB/s ETA 00:42WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] tMFoab3FAhk: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 3QVs1Liw0BI: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] hlEOOamt7cQ: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+WARNING: [youtube] tMFoab3FAhk: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=MKkUf00Wfi8
+[youtube] MKkUf00Wfi8: Downloading webpage
+[download]   2.9% of   17.06MiB at  381.71KiB/s ETA 00:44[download] Video is too old (before 2025)
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=s6nymqxHV0s
+[youtube] s6nymqxHV0s: Downloading webpage
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ZgWJH-sjeyU
+[youtube] ZgWJH-sjeyU: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=BG8-hYS8XzQ
+[youtube] BG8-hYS8XzQ: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] MKkUf00Wfi8: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] BG8-hYS8XzQ: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] s6nymqxHV0s: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ZgWJH-sjeyU: Downloading android vr player API JSON
+[download]   5.0% of   17.06MiB at  257.69KiB/s ETA 01:04[download] Video is too old (before 2025)
+[download] Video is too old (before 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=jm42GrW9FZ4
+[youtube] jm42GrW9FZ4: Downloading webpage
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=yqHlIbOpHSg
+[youtube] yqHlIbOpHSg: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=oXmpg9iTrfk
+[youtube] oXmpg9iTrfk: Downloading webpage
+WARNING: [youtube] ZgWJH-sjeyU: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=qv6o9qyBU7Y
+[youtube] qv6o9qyBU7Y: Downloading webpage
+[download]   6.1% of   17.06MiB at  260.48KiB/s ETA 01:02WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] jm42GrW9FZ4: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] oXmpg9iTrfk: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] yqHlIbOpHSg: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena VALE3 análise mineração
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=6Yu3Y8dA-5w
+[youtube] 6Yu3Y8dA-5w: Downloading webpage
+[youtube] qv6o9qyBU7Y: Downloading android vr player API JSON
+
+--- [search] Investidor Sardinha Raul Sena WEGE3 weg analise ---
+[download]   7.6% of   17.06MiB at  202.48KiB/s ETA 01:19[download] Video is too old (before 2025)
+[generic] Extracting URL: Investidor Sardinha Raul Sena WEGE3 weg analise
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena WEGE3 weg analise
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=gJk0ecRi3m0
+[youtube] gJk0ecRi3m0: Downloading webpage
+[download] Downloading playlist: Investidor Sardinha Raul Sena WEGE3 weg analise
+[youtube:search] query "Investidor Sardinha Raul Sena WEGE3 weg analise": Downloading web client config
+[download]   8.4% of   17.06MiB at  218.62KiB/s ETA 01:13WARNING: [youtube] qv6o9qyBU7Y: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=1CgkIjZ4wCE
+[youtube] 1CgkIjZ4wCE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 6Yu3Y8dA-5w: Downloading android vr player API JSON
+[download]  10.0% of   17.06MiB at  236.01KiB/s ETA 01:06[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=S1BMgLq9Vo4
+[youtube] S1BMgLq9Vo4: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] gJk0ecRi3m0: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 1CgkIjZ4wCE: Downloading android vr player API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena WEGE3 weg analise" page 1: Downloading API JSON
+[download]  12.3% of   17.06MiB at  269.77KiB/s ETA 00:56[download] Video is too old (before 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=HXQpSg9IrwM
+[youtube] HXQpSg9IrwM: Downloading webpage
+WARNING: [youtube] 1CgkIjZ4wCE: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=K-VHkK7v7Es
+[youtube] K-VHkK7v7Es: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] S1BMgLq9Vo4: Downloading android vr player API JSON
+[download]  16.3% of   17.06MiB at  330.64KiB/s ETA 00:44[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=uaBrw0jAORE
+[youtube] uaBrw0jAORE: Downloading webpage
+[youtube:search] Playlist Investidor Sardinha Raul Sena WEGE3 weg analise: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=kaAIemcLN9g
+[youtube] kaAIemcLN9g: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] K-VHkK7v7Es: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] HXQpSg9IrwM: Downloading android vr player API JSON
+WARNING: [youtube] K-VHkK7v7Es: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=D647DTsYUNo
+[youtube] D647DTsYUNo: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Nis4FvidQog
+[youtube] Nis4FvidQog: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] uaBrw0jAORE: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] kaAIemcLN9g: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=4FoiqEhUzLs
+[youtube] 4FoiqEhUzLs: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=fVeznUYny1g
+[youtube] fVeznUYny1g: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] D647DTsYUNo: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Nis4FvidQog: Downloading android vr player API JSON
+[download]  22.7% of   17.06MiB at  376.67KiB/s ETA 00:35WARNING: [youtube] D647DTsYUNo: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena ITUB4 ITSA4 itaú
+
+--- [search] Investidor Sardinha Raul Sena IRDM11 fundo recebíveis ---
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=hWiBTVZuEOY
+[youtube] hWiBTVZuEOY: Downloading webpage
+[generic] Extracting URL: Investidor Sardinha Raul Sena IRDM11 fundo recebíveis
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena IRDM11 fundo recebíveis
+[download] Downloading playlist: Investidor Sardinha Raul Sena IRDM11 fundo recebíveis
+[youtube:search] query "Investidor Sardinha Raul Sena IRDM11 fundo recebíveis": Downloading web client config
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 4FoiqEhUzLs: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=wxob6Ra0IAU
+[youtube] wxob6Ra0IAU: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] fVeznUYny1g: Downloading android vr player API JSON
+[download]  26.1% of   17.06MiB at  385.83KiB/s ETA 00:33[download] Video is too old (before 2025)
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=-xAxICA5x9Y
+[youtube] -xAxICA5x9Y: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] hWiBTVZuEOY: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] wxob6Ra0IAU: Downloading android vr player API JSON
+WARNING: [youtube] hWiBTVZuEOY: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena PETR4 dividendos petrobras
+
+--- [search] Investidor Sardinha Raul Sena HGLG11 logístico FII ---
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena BBSE3 BB seguridade
+
+--- [search] Investidor Sardinha Raul Sena XPLG11 BTLG11 fundo logístico ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena HGLG11 logístico FII
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena HGLG11 logístico FII
+[download] Downloading playlist: Investidor Sardinha Raul Sena HGLG11 logístico FII
+[youtube:search] query "Investidor Sardinha Raul Sena HGLG11 logístico FII": Downloading web client config
+[generic] Extracting URL: Investidor Sardinha Raul Sena XPLG11 BTLG11 fundo logístico
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena XPLG11 BTLG11 fundo logístico
+[download] Downloading playlist: Investidor Sardinha Raul Sena XPLG11 BTLG11 fundo logístico
+[youtube:search] query "Investidor Sardinha Raul Sena XPLG11 BTLG11 fundo logístico": Downloading web client config
+[download]  28.7% of   17.06MiB at  395.95KiB/s ETA 00:31WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] -xAxICA5x9Y: Downloading android vr player API JSON
+[download]  31.8% of   17.06MiB at  413.01KiB/s ETA 00:28[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=jVHsvQ2XWgg
+[youtube] jVHsvQ2XWgg: Downloading webpage
+[youtube:search] query "Investidor Sardinha Raul Sena IRDM11 fundo recebíveis" page 1: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena HGLG11 logístico FII" page 1: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena XPLG11 BTLG11 fundo logístico" page 1: Downloading API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena XPLG11 BTLG11 fundo logístico: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=txICzJBXgBI
+[youtube] txICzJBXgBI: Downloading webpage
+[youtube:search] Playlist Investidor Sardinha Raul Sena HGLG11 logístico FII: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=7WYZBCPynt8
+[youtube] 7WYZBCPynt8: Downloading webpage
+[youtube:search] Playlist Investidor Sardinha Raul Sena IRDM11 fundo recebíveis: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ujJCfM1qFwM
+[youtube] ujJCfM1qFwM: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] jVHsvQ2XWgg: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 7WYZBCPynt8: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=yeMuQk1O4oo
+[youtube] yeMuQk1O4oo: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=d3uPn74yupI
+[youtube] d3uPn74yupI: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] txICzJBXgBI: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ujJCfM1qFwM: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=5mLX_5uyMnw
+[youtube] 5mLX_5uyMnw: Downloading webpage
+[download]  35.7% of   17.06MiB at  379.46KiB/s ETA 00:29[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=hDxAmLFGIn8
+[youtube] hDxAmLFGIn8: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] d3uPn74yupI: Downloading android vr player API JSON
+[download]  37.7% of   17.06MiB at  393.40KiB/s ETA 00:27[download] Video is too old (before 2025)
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ujJCfM1qFwM
+[youtube] ujJCfM1qFwM: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] yeMuQk1O4oo: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 5mLX_5uyMnw: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=i_rCB4akMew
+[youtube] i_rCB4akMew: Downloading webpage
+[download]  41.7% of   17.06MiB at  415.87KiB/s ETA 00:24[download] Video is too old (before 2025)
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=-yKdrIGpphI
+[youtube] -yKdrIGpphI: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] hDxAmLFGIn8: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ujJCfM1qFwM: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=j7fDhCESNJo
+[youtube] j7fDhCESNJo: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=5hb2q3vb2Bk
+[youtube] 5hb2q3vb2Bk: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] i_rCB4akMew: Downloading android vr player API JSON
+[download]  46.9% of   17.06MiB at  426.52KiB/s ETA 00:21WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] -yKdrIGpphI: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=swUjpHS1Uj8
+[youtube] swUjpHS1Uj8: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] j7fDhCESNJo: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 5hb2q3vb2Bk: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=hjgk7Elk9Ys
+[youtube] hjgk7Elk9Ys: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=txICzJBXgBI
+[youtube] txICzJBXgBI: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=UfLrkC99muA
+[youtube] UfLrkC99muA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] txICzJBXgBI: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] hjgk7Elk9Ys: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] UfLrkC99muA: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=YXCFr-K0iTk
+[youtube] YXCFr-K0iTk: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Video is too old (before 2025)
+[download] Downloading item 5 of 10
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ujJCfM1qFwM
+[youtube] Extracting URL: https://www.youtube.com/watch?v=HO4PnG1tkhw
+[youtube] ujJCfM1qFwM: Downloading webpage
+[youtube] HO4PnG1tkhw: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] swUjpHS1Uj8: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=dZ_pcjNq-Rk
+[youtube] dZ_pcjNq-Rk: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] HO4PnG1tkhw: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] YXCFr-K0iTk: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ujJCfM1qFwM: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[download] Video is too old (before 2025)
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Ah3Cm1RrmQs
+[youtube] Ah3Cm1RrmQs: Downloading webpage
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Ai_eX3NV3l8
+[youtube] Ai_eX3NV3l8: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=EKRjw9K2rY0
+[youtube] EKRjw9K2rY0: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] dZ_pcjNq-Rk: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Channel "Conhecimento Investimentos" not in allowed list
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=IeGVj_OO3hU
+[youtube] IeGVj_OO3hU: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Ah3Cm1RrmQs: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Ai_eX3NV3l8: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=5mLX_5uyMnw
+[youtube] 5mLX_5uyMnw: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] EKRjw9K2rY0: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=5mLX_5uyMnw
+[youtube] 5mLX_5uyMnw: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=459HBvWwPYw
+[youtube] 459HBvWwPYw: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] IeGVj_OO3hU: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 5mLX_5uyMnw: Downloading android vr player API JSON
+[download]  50.0% of   17.06MiB at  314.00KiB/s ETA 00:27[download] Video is too old (before 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=1QsQPoAeEok
+[youtube] 1QsQPoAeEok: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena WEGE3 weg analise
+
+--- [search] Investidor Sardinha Raul Sena KNRI11 KNCR11 kinea ---
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 5mLX_5uyMnw: Downloading android vr player API JSON
+[generic] Extracting URL: Investidor Sardinha Raul Sena KNRI11 KNCR11 kinea
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena KNRI11 KNCR11 kinea
+[download] Downloading playlist: Investidor Sardinha Raul Sena KNRI11 KNCR11 kinea
+[youtube:search] query "Investidor Sardinha Raul Sena KNRI11 KNCR11 kinea": Downloading web client config
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 459HBvWwPYw: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=hjgk7Elk9Ys
+[youtube] hjgk7Elk9Ys: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=vwAoyVNIZCY
+[youtube] vwAoyVNIZCY: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 1QsQPoAeEok: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] vwAoyVNIZCY: Downloading android vr player API JSON
+[download]  51.5% of   17.06MiB at  303.36KiB/s ETA 00:27[download] Video is too old (before 2025)
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=tKMe-Fa_fcg
+[youtube] tKMe-Fa_fcg: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=gd7gI7vex1A
+[youtube] gd7gI7vex1A: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] hjgk7Elk9Ys: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=p_q9_tcVHTE
+[youtube] p_q9_tcVHTE: Downloading webpage
+[youtube:search] query "Investidor Sardinha Raul Sena KNRI11 KNCR11 kinea" page 1: Downloading API JSON
+[download]  52.3% of   17.06MiB at  300.44KiB/s ETA 00:27[youtube:search] Playlist Investidor Sardinha Raul Sena KNRI11 KNCR11 kinea: Downloading 0 items
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena KNRI11 KNCR11 kinea
+
+--- [search] Investidor Sardinha Raul Sena MXRF11 fii hibrido ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena MXRF11 fii hibrido
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena MXRF11 fii hibrido
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[download] Downloading playlist: Investidor Sardinha Raul Sena MXRF11 fii hibrido
+[youtube:search] query "Investidor Sardinha Raul Sena MXRF11 fii hibrido": Downloading web client config
+[youtube] tKMe-Fa_fcg: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] gd7gI7vex1A: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Channel "Pra Ficar Rico" not in allowed list
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena XPLG11 BTLG11 fundo logístico
+
+--- [search] Investidor Sardinha Raul Sena IVVB11 ETF S&P 500 ---
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena IRDM11 fundo recebíveis
+
+--- [search] Investidor Sardinha Raul Sena BOVA11 indice bovespa ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena IVVB11 ETF S&P 500
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena IVVB11 ETF S&P 500
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] p_q9_tcVHTE: Downloading android vr player API JSON
+[download] Downloading playlist: Investidor Sardinha Raul Sena IVVB11 ETF S&P 500
+[generic] Extracting URL: Investidor Sardinha Raul Sena BOVA11 indice bovespa
+[youtube:search] query "Investidor Sardinha Raul Sena IVVB11 ETF S&P 500": Downloading web client config
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena BOVA11 indice bovespa
+[download] Downloading playlist: Investidor Sardinha Raul Sena BOVA11 indice bovespa
+[youtube:search] query "Investidor Sardinha Raul Sena BOVA11 indice bovespa": Downloading web client config
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena HGLG11 logístico FII
+
+--- [search] Investidor Sardinha Raul Sena vivara joias acoes ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena vivara joias acoes
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena vivara joias acoes
+[download] Downloading playlist: Investidor Sardinha Raul Sena vivara joias acoes
+[youtube:search] query "Investidor Sardinha Raul Sena vivara joias acoes": Downloading web client config
+[youtube:search] query "Investidor Sardinha Raul Sena MXRF11 fii hibrido" page 1: Downloading API JSON
+[download]  53.4% of   17.06MiB at  286.17KiB/s ETA 00:28[youtube:search] query "Investidor Sardinha Raul Sena MXRF11 fii hibrido" page 2: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena IVVB11 ETF S&P 500" page 1: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena BOVA11 indice bovespa" page 1: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena vivara joias acoes" page 1: Downloading API JSON
+[download]  54.0% of   17.06MiB at  280.84KiB/s ETA 00:28WARNING: [youtube:search] Incomplete data received. Retrying (1/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena MXRF11 fii hibrido" page 2: Downloading API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena IVVB11 ETF S&P 500: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Q6c6wq3gq5g
+[youtube] Q6c6wq3gq5g: Downloading webpage
+WARNING: [youtube:search] Incomplete data received. Retrying (2/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena MXRF11 fii hibrido" page 2: Downloading API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena BOVA11 indice bovespa: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=FJoCmuzmCPs
+[youtube] FJoCmuzmCPs: Downloading webpage
+[download]  54.5% of   17.06MiB at  278.60KiB/s ETA 00:28[youtube:search] Playlist Investidor Sardinha Raul Sena vivara joias acoes: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=6nV4dZEKyPE
+[youtube] 6nV4dZEKyPE: Downloading webpage
+WARNING: [youtube:search] Incomplete data received. Retrying (3/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena MXRF11 fii hibrido" page 2: Downloading API JSON
+[download]  55.4% of   17.06MiB at  277.84KiB/s ETA 00:28WARNING: [youtube:search] Incomplete data received. Giving up after 3 retries
+[youtube:search] Playlist Investidor Sardinha Raul Sena MXRF11 fii hibrido: Downloading 4 items of 4
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 6nV4dZEKyPE: Downloading android vr player API JSON
+[download] Downloading item 1 of 4
+[youtube] Extracting URL: https://www.youtube.com/watch?v=5mLX_5uyMnw
+[youtube] 5mLX_5uyMnw: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Q6c6wq3gq5g: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Channel "Os Economistas Podcast" not in allowed list
+[download] Channel "Conhecimento Investimentos" not in allowed list
+[download] Channel "Pra Ficar Rico" not in allowed list
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=898luYp3z9E
+[youtube] 898luYp3z9E: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] FJoCmuzmCPs: Downloading android vr player API JSON
+[download]  56.8% of   17.06MiB at  280.23KiB/s ETA 00:26[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=qESSMOWuUVk
+[youtube] qESSMOWuUVk: Downloading webpage
+[info] FJoCmuzmCPs: Downloading 1 format(s): 251
+[download]  58.1% of   17.06MiB at  283.70KiB/s ETA 00:25[download]  58.1% of   17.06MiB at   23.87KiB/s ETA 05:06[download]  58.1% of   17.06MiB at   70.77KiB/s ETA 01:43[download]  58.1% of   17.06MiB at  161.99KiB/s ETA 00:45[download]  58.1% of   17.06MiB at  341.45KiB/s ETA 00:21[download]  58.2% of   17.06MiB at  456.53KiB/s ETA 00:15[download]  58.4% of   17.06MiB at  424.00KiB/s ETA 00:17WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 5mLX_5uyMnw: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 898luYp3z9E: Downloading android vr player API JSON
+[download]  58.8% of   17.06MiB at  462.87KiB/s ETA 00:15[download] Destination: output\raul_sena_2025_new\O_fim_do_indice_bovespa_O_novo_indice - 25-06-2025.webm
+[download]   0.0% of   20.24MiB at  395.24KiB/s ETA 00:52[download]   0.0% of   20.24MiB at  720.88KiB/s ETA 00:28[download]   0.0% of   20.24MiB at    1.39MiB/s ETA 00:14[download]   0.1% of   20.24MiB at    2.56MiB/s ETA 00:07[download]   0.1% of   20.24MiB at    4.76MiB/s ETA 00:04[download]   0.3% of   20.24MiB at  870.81KiB/s ETA 00:23WARNING: [youtube] 5mLX_5uyMnw: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download]   0.6% of   20.24MiB at  664.28KiB/s ETA 00:31[download]   1.2% of   20.24MiB at  804.83KiB/s ETA 00:25[download] Video is too old (before 2025)
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] qESSMOWuUVk: Downloading android vr player API JSON
+[download] Downloading item 2 of 4
+[youtube] Extracting URL: https://www.youtube.com/watch?v=1JeuB3AaqzU
+[download]  59.5% of   17.06MiB at  365.64KiB/s ETA 00:19[youtube] 1JeuB3AaqzU: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=w-IGutDO_mM
+[youtube] w-IGutDO_mM: Downloading webpage
+[download]   2.5% of   20.24MiB at  932.33KiB/s ETA 00:21[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Video already in history
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=YpwFTYbbJv4
+[youtube] YpwFTYbbJv4: Downloading webpage
+[download]  61.0% of   17.06MiB at  392.26KiB/s ETA 00:17WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 1JeuB3AaqzU: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] w-IGutDO_mM: Downloading android vr player API JSON
+WARNING: [youtube] 1JeuB3AaqzU: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download] Downloading item 3 of 4
+[youtube] Extracting URL: https://www.youtube.com/watch?v=5IIZ97E0G7Y
+[youtube] 5IIZ97E0G7Y: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=x9jbek2Od7Y
+[youtube] x9jbek2Od7Y: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] YpwFTYbbJv4: Downloading android vr player API JSON
+[download]   4.9% of   20.24MiB at  474.27KiB/s ETA 00:41[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ULnxWBEjCJ8
+[youtube] ULnxWBEjCJ8: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 5IIZ97E0G7Y: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] x9jbek2Od7Y: Downloading android vr player API JSON
+WARNING: [youtube] 5IIZ97E0G7Y: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download]  63.4% of   17.06MiB at  263.85KiB/s ETA 00:24[download] Video is too old (before 2025)
+[download] Downloading item 4 of 4
+[youtube] Extracting URL: https://www.youtube.com/watch?v=CwlWitwDloQ
+[youtube] CwlWitwDloQ: Downloading webpage
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=SPEfQDWa37g
+[youtube] SPEfQDWa37g: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ULnxWBEjCJ8: Downloading android vr player API JSON
+[download]   6.5% of   20.24MiB at  332.98KiB/s ETA 00:58[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=VBCLt7dsw8s
+[youtube] VBCLt7dsw8s: Downloading webpage
+[download]  64.6% of   17.06MiB at  252.09KiB/s ETA 00:24WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] SPEfQDWa37g: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] CwlWitwDloQ: Downloading android vr player API JSON
+WARNING: [youtube] CwlWitwDloQ: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download]  65.8% of   17.06MiB at  260.35KiB/s ETA 00:22[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=CLH7KqGI_po
+[youtube] CLH7KqGI_po: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena MXRF11 fii hibrido
+
+--- [search] Investidor Sardinha Raul Sena renda passiva 10 mil mensais ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena renda passiva 10 mil mensais
+[download]   7.3% of   20.24MiB at  300.76KiB/s ETA 01:03[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena renda passiva 10 mil mensais
+[download] Downloading playlist: Investidor Sardinha Raul Sena renda passiva 10 mil mensais
+[youtube:search] query "Investidor Sardinha Raul Sena renda passiva 10 mil mensais": Downloading web client config
+[download]  67.6% of   17.06MiB at  304.75KiB/s ETA 00:18WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] VBCLt7dsw8s: Downloading android vr player API JSON
+[download]   8.1% of   20.24MiB at  312.27KiB/s ETA 01:00[youtube:search] query "Investidor Sardinha Raul Sena renda passiva 10 mil mensais" page 1: Downloading API JSON
+[download]   9.8% of   20.24MiB at  331.82KiB/s ETA 00:56[download] Video is too old (before 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=4EgyN5sQafM
+[youtube] 4EgyN5sQafM: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] CLH7KqGI_po: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Channel "Alfa Money" not in allowed list
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena vivara joias acoes
+
+--- [search] Investidor Sardinha Raul Sena R$ 100 mil onde investir ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena R$ 100 mil onde investir
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena R$ 100 mil onde investir
+[download] Downloading playlist: Investidor Sardinha Raul Sena R$ 100 mil onde investir
+[youtube:search] query "Investidor Sardinha Raul Sena R$ 100 mil onde investir": Downloading web client config
+[youtube:search] Playlist Investidor Sardinha Raul Sena renda passiva 10 mil mensais: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=bM9rSHScs3Q
+[youtube] bM9rSHScs3Q: Downloading webpage
+[download]  12.1% of   20.24MiB at  331.05KiB/s ETA 00:55WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 4EgyN5sQafM: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] bM9rSHScs3Q: Downloading android vr player API JSON
+[download]  71.3% of   17.06MiB at  279.39KiB/s ETA 00:17[download]  13.7% of   20.24MiB at  353.12KiB/s ETA 00:50[download] Video is too old (before 2025)
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=iRRPWNp5o1Q
+[youtube] iRRPWNp5o1Q: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=RB3-FWDBfcI
+[youtube] RB3-FWDBfcI: Downloading webpage
+[youtube:search] query "Investidor Sardinha Raul Sena R$ 100 mil onde investir" page 1: Downloading API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena R$ 100 mil onde investir: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=_bJQDjRdYD8
+[youtube] _bJQDjRdYD8: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] RB3-FWDBfcI: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=49qN6OBcjJs
+[youtube] 49qN6OBcjJs: Downloading webpage
+[download]  16.8% of   20.24MiB at  316.43KiB/s ETA 00:54[download]  73.1% of   17.06MiB at  220.92KiB/s ETA 00:21WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 49qN6OBcjJs: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] _bJQDjRdYD8: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=tI9je5sReX4
+[youtube] tI9je5sReX4: Downloading webpage
+WARNING: [youtube] _bJQDjRdYD8: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] iRRPWNp5o1Q: Downloading android vr player API JSON
+[download] Video is too new (after 2025)
+[download] Video already in history
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=-op5y7C34EM
+[youtube] -op5y7C34EM: Downloading webpage
+[download]  18.4% of   20.24MiB at  307.90KiB/s ETA 00:54[download]  74.0% of   17.06MiB at  216.49KiB/s ETA 00:20[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena IVVB11 ETF S&P 500
+
+--- [search] Investidor Sardinha Raul Sena salário 5 mil organizar ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena salário 5 mil organizar
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena salário 5 mil organizar
+[download] Downloading playlist: Investidor Sardinha Raul Sena salário 5 mil organizar
+[youtube:search] query "Investidor Sardinha Raul Sena salário 5 mil organizar": Downloading web client config
+[download]  74.9% of   17.06MiB at  220.34KiB/s ETA 00:19WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] tI9je5sReX4: Downloading android vr player API JSON
+[download]  19.6% of   20.24MiB at  295.80KiB/s ETA 00:56[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=qcNBhRX8F1I
+[youtube] qcNBhRX8F1I: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] -op5y7C34EM: Downloading android vr player API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena salário 5 mil organizar" page 1: Downloading API JSON
+[download]  20.4% of   20.24MiB at  287.74KiB/s ETA 00:57WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] qcNBhRX8F1I: Downloading android vr player API JSON
+WARNING: [youtube] -op5y7C34EM: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download]  76.7% of   17.06MiB at  213.92KiB/s ETA 00:19[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=A-P7kpYWq_s
+[youtube] A-P7kpYWq_s: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=WtlAVPpdkc4
+[youtube] WtlAVPpdkc4: Downloading webpage
+[download]  21.3% of   20.24MiB at  286.66KiB/s ETA 00:56[youtube:search] Playlist Investidor Sardinha Raul Sena salário 5 mil organizar: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=oLMxWL2w5PY
+[youtube] oLMxWL2w5PY: Downloading webpage
+[download]  77.7% of   17.06MiB at  216.98KiB/s ETA 00:17WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] WtlAVPpdkc4: Downloading android vr player API JSON
+[download]  79.4% of   17.06MiB at  223.44KiB/s ETA 00:16[download]  22.6% of   20.24MiB at  281.46KiB/s ETA 00:57[download] Video is too new (after 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Iizot-cHbf4
+[youtube] Iizot-cHbf4: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] oLMxWL2w5PY: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ay0RpAKhExY
+[youtube] ay0RpAKhExY: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Iizot-cHbf4: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] A-P7kpYWq_s: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+WARNING: [youtube] A-P7kpYWq_s: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download]  23.6% of   20.24MiB at  271.19KiB/s ETA 00:58[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=j7fDhCESNJo
+[youtube] j7fDhCESNJo: Downloading webpage
+[download] Video is too new (after 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=nEUyepoDM94
+[youtube] nEUyepoDM94: Downloading webpage
+[download]  81.3% of   17.06MiB at  221.15KiB/s ETA 00:14WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] j7fDhCESNJo: Downloading android vr player API JSON
+[download]  24.3% of   20.24MiB at  261.65KiB/s ETA 00:59WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ay0RpAKhExY: Downloading android vr player API JSON
+[download]  82.5% of   17.06MiB at  216.41KiB/s ETA 00:14[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena renda passiva 10 mil mensais
+
+--- [search] Investidor Sardinha Raul Sena reserva emergência ideal ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena reserva emergência ideal
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena reserva emergência ideal
+[download] Downloading playlist: Investidor Sardinha Raul Sena reserva emergência ideal
+[youtube:search] query "Investidor Sardinha Raul Sena reserva emergência ideal": Downloading web client config
+[download] Video is too old (before 2025)
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=rilMuvFaIEQ
+[youtube] rilMuvFaIEQ: Downloading webpage
+[download]  83.3% of   17.06MiB at  219.99KiB/s ETA 00:13[download]  24.9% of   20.24MiB at  260.68KiB/s ETA 00:59[download]  85.1% of   17.06MiB at  231.37KiB/s ETA 00:11WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] nEUyepoDM94: Downloading android vr player API JSON
+[download]  26.0% of   20.24MiB at  264.88KiB/s ETA 00:57WARNING: [youtube] nEUyepoDM94: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=RB3-FWDBfcI
+[youtube] RB3-FWDBfcI: Downloading webpage
+[youtube:search] query "Investidor Sardinha Raul Sena reserva emergência ideal" page 1: Downloading API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena reserva emergência ideal: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=HTfQxGnp8zs
+[youtube] HTfQxGnp8zs: Downloading webpage
+[download]  28.0% of   20.24MiB at  271.03KiB/s ETA 00:55WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] rilMuvFaIEQ: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=bhDQy_lypUQ
+[youtube] bhDQy_lypUQ: Downloading webpage
+[download]  88.5% of   17.06MiB at  238.39KiB/s ETA 00:08WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] RB3-FWDBfcI: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] HTfQxGnp8zs: Downloading android vr player API JSON
+WARNING: [youtube] RB3-FWDBfcI: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download]  29.9% of   20.24MiB at  268.10KiB/s ETA 00:54[download] Video already in history
+[download] Video is too old (before 2025)
+[download] Downloading item 3 of 10
+[download] Video already in history
+[youtube] Extracting URL: https://www.youtube.com/watch?v=cS9QX4jyEpc
+[youtube] cS9QX4jyEpc: Downloading webpage
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=oR9kBbY3cm4
+[youtube] oR9kBbY3cm4: Downloading webpage
+[download]  90.3% of   17.06MiB at  239.86KiB/s ETA 00:07WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] bhDQy_lypUQ: Downloading android vr player API JSON
+[download]  31.0% of   20.24MiB at  272.08KiB/s ETA 00:52[download]  91.8% of   17.06MiB at  246.10KiB/s ETA 00:05[info] bhDQy_lypUQ: Downloading 1 format(s): 251
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] cS9QX4jyEpc: Downloading android vr player API JSON
+[download] Destination: output\raul_sena_2025_new\Qual_carro_voce_deveria_comprar_com_o_seu_salario - 23-01-2025.webm
+[download]   0.0% of   15.84MiB at   16.02KiB/s ETA 16:52[download]   0.0% of   15.84MiB at   47.76KiB/s ETA 05:39[download]   0.0% of   15.84MiB at   93.53KiB/s ETA 02:53[download]   0.1% of   15.84MiB at  199.75KiB/s ETA 01:21[download]   0.2% of   15.84MiB at  411.51KiB/s ETA 00:39[download]   0.4% of   15.84MiB at  832.71KiB/s ETA 00:19[download]  33.2% of   20.24MiB at  283.03KiB/s ETA 00:48[download] Video is too old (before 2025)
+[download]   0.8% of   15.84MiB at    1.61MiB/s ETA 00:09[download] Video already in history
+[download] Video already in history
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=J6sjmko5Kv0
+[youtube] J6sjmko5Kv0: Downloading webpage
+[download]  94.9% of   17.06MiB at  261.13KiB/s ETA 00:03[download]   1.6% of   15.84MiB at    1.56MiB/s ETA 00:09[download]   3.2% of   15.84MiB at    1.76MiB/s ETA 00:08WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] oR9kBbY3cm4: Downloading android vr player API JSON
+WARNING: [youtube] oR9kBbY3cm4: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] Video is too old (before 2025)
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ycz_81s9vJA
+[youtube] ycz_81s9vJA: Downloading webpage
+[download]   6.3% of   15.84MiB at    1.39MiB/s ETA 00:10WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] J6sjmko5Kv0: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Video already in history
+[download] Video already in history
+[download] Video already in history
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena reserva emergência ideal
+
+--- [search] Investidor Sardinha Raul Sena patrimonio 500 mil distribuir ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena patrimonio 500 mil distribuir
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena patrimonio 500 mil distribuir
+[download] Downloading playlist: Investidor Sardinha Raul Sena patrimonio 500 mil distribuir
+[youtube:search] query "Investidor Sardinha Raul Sena patrimonio 500 mil distribuir": Downloading web client config
+[download]  36.4% of   20.24MiB at  290.92KiB/s ETA 00:45WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ycz_81s9vJA: Downloading android vr player API JSON
+[download]  99.5% of   17.06MiB at  272.03KiB/s ETA 00:00WARNING: [youtube] ycz_81s9vJA: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[download] 100.0% of   17.06MiB at  273.06KiB/s ETA 00:00[download] 100% of   17.06MiB in 00:01:03 at 276.01KiB/s 
+[History] Saving verified download: O que está acontecendo com a Bolsa AGORA? [Análise Atualizada][download] Video is too old (before 2025)
+
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena R$ 100 mil onde investir
+
+--- [search] Investidor Sardinha Raul Sena fundo soberano Norway ---
+[download]  12.6% of   15.84MiB at  855.00KiB/s ETA 00:16[generic] Extracting URL: Investidor Sardinha Raul Sena fundo soberano Norway
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena fundo soberano Norway
+
+[download] Downloading playlist: Investidor Sardinha Raul Sena fundo soberano Norway
+[youtube:search] query "Investidor Sardinha Raul Sena fundo soberano Norway": Downloading web client config
+[download]  38.4% of   20.24MiB at  297.37KiB/s ETA 00:42[ExtractAudio] Destination: output\raul_sena_2025_new\O_que_esta_acontecendo_com_a_Bolsa_AGORA_Analise_Atualizada - 15-04-2025.mp3
+[youtube:search] query "Investidor Sardinha Raul Sena patrimonio 500 mil distribuir" page 1: Downloading API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena patrimonio 500 mil distribuir: Downloading 10 items of 10
+[download] Video already in history
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=j7fDhCESNJo
+[youtube] j7fDhCESNJo: Downloading webpage
+[youtube:search] query "Investidor Sardinha Raul Sena fundo soberano Norway" page 1: Downloading API JSON
+[download]  40.8% of   20.24MiB at  301.20KiB/s ETA 00:40[youtube:search] Playlist Investidor Sardinha Raul Sena fundo soberano Norway: Downloading 0 items
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena fundo soberano Norway
+
+--- [search] Investidor Sardinha Raul Sena Warren Buffett Berkshire ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena Warren Buffett Berkshire
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena Warren Buffett Berkshire
+[download] Downloading playlist: Investidor Sardinha Raul Sena Warren Buffett Berkshire
+[youtube:search] query "Investidor Sardinha Raul Sena Warren Buffett Berkshire": Downloading web client config
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] j7fDhCESNJo: Downloading android vr player API JSON
+[download]  16.4% of   15.84MiB at  557.61KiB/s ETA 00:24[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=SpyWH9U15Ek
+[youtube] SpyWH9U15Ek: Downloading webpage
+[youtube:search] query "Investidor Sardinha Raul Sena Warren Buffett Berkshire" page 1: Downloading API JSON
+[download]  18.3% of   15.84MiB at  510.61KiB/s ETA 00:25[download]  42.6% of   20.24MiB at  293.39KiB/s ETA 00:40WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] SpyWH9U15Ek: Downloading android vr player API JSON
+[download]  43.5% of   20.24MiB at  298.00KiB/s ETA 00:39[download] Video is too old (before 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=-DiaFBuVeMo
+[youtube] -DiaFBuVeMo: Downloading webpage
+[youtube:search] Playlist Investidor Sardinha Raul Sena Warren Buffett Berkshire: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=inrer1OhHjQ
+[youtube] inrer1OhHjQ: Downloading webpage
+[download]  45.4% of   20.24MiB at  305.29KiB/s ETA 00:37[download]  20.1% of   15.84MiB at  492.58KiB/s ETA 00:26WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] -DiaFBuVeMo: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=3LPe2gqVU-Y
+[youtube] 3LPe2gqVU-Y: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] inrer1OhHjQ: Downloading android vr player API JSON
+[download] Video is too new (after 2025)
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ostivfEvmhw
+[youtube] ostivfEvmhw: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 3LPe2gqVU-Y: Downloading android vr player API JSON
+[download]  22.3% of   15.84MiB at  343.19KiB/s ETA 00:36[download] Video is too new (after 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=bx-sTOSteRA
+[youtube] bx-sTOSteRA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ostivfEvmhw: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=g0XIYKOuZBE
+[youtube] g0XIYKOuZBE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] bx-sTOSteRA: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=rc0kGetqx0Y
+[youtube] rc0kGetqx0Y: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] g0XIYKOuZBE: Downloading android vr player API JSON
+[download]  23.5% of   15.84MiB at  300.44KiB/s ETA 00:41[download]  48.9% of   20.24MiB at  274.12KiB/s ETA 00:38[download]  49.0% of   20.24MiB at  274.56KiB/s ETA 00:38[download]  49.0% of   20.24MiB at  134.34KiB/s ETA 01:18[download]  49.0% of   20.24MiB at  381.01KiB/s ETA 00:27[download]  49.0% of   20.24MiB at  856.21KiB/s ETA 00:12[download]  49.0% of   20.24MiB at    1.75MiB/s ETA 00:05[download]  49.1% of   20.24MiB at  322.08KiB/s ETA 00:32[download]  49.3% of   20.24MiB at  650.70KiB/s ETA 00:16[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lw8MvGINT7E
+[youtube] lw8MvGINT7E: Downloading webpage
+[download]  24.0% of   15.84MiB at  299.79KiB/s ETA 00:41[download]  49.6% of   20.24MiB at  634.27KiB/s ETA 00:16[download]  50.2% of   20.24MiB at  496.51KiB/s ETA 00:20WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] rc0kGetqx0Y: Downloading android vr player API JSON
+[download]  25.1% of   15.84MiB at  298.21KiB/s ETA 00:40WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] lw8MvGINT7E: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=u7Viix27Dk8
+[youtube] u7Viix27Dk8: Downloading webpage
+[download]  51.4% of   20.24MiB at  364.49KiB/s ETA 00:27[download] Video is too old (before 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=o3fUUY5uxjc
+[youtube] o3fUUY5uxjc: Downloading webpage
+[download]  26.8% of   15.84MiB at  297.78KiB/s ETA 00:39WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[download]  52.8% of   20.24MiB at  327.80KiB/s ETA 00:29[youtube] u7Viix27Dk8: Downloading android vr player API JSON
+[download]  28.6% of   15.84MiB at  301.77KiB/s ETA 00:38WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] o3fUUY5uxjc: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download]  54.2% of   20.24MiB at  370.28KiB/s ETA 00:25[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=z1L_o8XothI
+[youtube] z1L_o8XothI: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=eH0CVv1w5fs
+[youtube] eH0CVv1w5fs: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] z1L_o8XothI: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] eH0CVv1w5fs: Downloading android vr player API JSON
+[download]  30.9% of   15.84MiB at  303.57KiB/s ETA 00:36[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=-dmBPxtqkI8
+[youtube] -dmBPxtqkI8: Downloading webpage
+[download]  56.9% of   20.24MiB at  382.63KiB/s ETA 00:23[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena patrimonio 500 mil distribuir
+
+--- [search] Investidor Sardinha Raul Sena lições para enriquecer ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena lições para enriquecer
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena lições para enriquecer
+[download] Downloading playlist: Investidor Sardinha Raul Sena lições para enriquecer
+[youtube:search] query "Investidor Sardinha Raul Sena lições para enriquecer": Downloading web client config
+[download]  32.9% of   15.84MiB at  308.08KiB/s ETA 00:35WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] -dmBPxtqkI8: Downloading android vr player API JSON
+[download]  35.4% of   15.84MiB at  319.77KiB/s ETA 00:32[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=a_9JRvj86_Y
+[youtube] a_9JRvj86_Y: Downloading webpage
+[download]  58.8% of   20.24MiB at  363.74KiB/s ETA 00:23[youtube:search] query "Investidor Sardinha Raul Sena lições para enriquecer" page 1: Downloading API JSON
+[download]  60.3% of   20.24MiB at  387.19KiB/s ETA 00:21[download]  39.4% of   15.84MiB at  338.09KiB/s ETA 00:29WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] a_9JRvj86_Y: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=CmEqsTM9ha0
+[youtube] CmEqsTM9ha0: Downloading webpage
+[youtube:search] Playlist Investidor Sardinha Raul Sena lições para enriquecer: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=WAPQwfzTtQE
+[youtube] WAPQwfzTtQE: Downloading webpage
+[download]  63.2% of   20.24MiB at  441.32KiB/s ETA 00:17[download]  43.6% of   15.84MiB at  361.80KiB/s ETA 00:25Deleting original file output\raul_sena_2025_new\O_que_esta_acontecendo_com_a_Bolsa_AGORA_Analise_Atualizada - 15-04-2025.webm (pass -k to keep)
+[info] Maximum number of downloads reached, stopping due to --max-downloads
+Error downloading 'Investidor Sardinha Raul Sena beta volatilidade carteira': Maximum number of downloads reached, stopping due to --max-downloads
+
+--- [search] Investidor Sardinha Raul Sena erros do investidor iniciante ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena erros do investidor iniciante
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena erros do investidor iniciante
+[download] Downloading playlist: Investidor Sardinha Raul Sena erros do investidor iniciante
+[youtube:search] query "Investidor Sardinha Raul Sena erros do investidor iniciante": Downloading web client config
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] CmEqsTM9ha0: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] WAPQwfzTtQE: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena Warren Buffett Berkshire
+
+--- [search] Investidor Sardinha Raul Sena diversificação real carteira ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena diversificação real carteira
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena diversificação real carteira
+[download] Downloading playlist: Investidor Sardinha Raul Sena diversificação real carteira
+[youtube:search] query "Investidor Sardinha Raul Sena diversificação real carteira": Downloading web client config
+[download] Video is too old (before 2025)
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=L31C6IYNLik
+[youtube] L31C6IYNLik: Downloading webpage
+[youtube:search] query "Investidor Sardinha Raul Sena erros do investidor iniciante" page 1: Downloading API JSON
+[download]  67.9% of   20.24MiB at  489.86KiB/s ETA 00:13[download]  50.1% of   15.84MiB at  381.68KiB/s ETA 00:21WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] L31C6IYNLik: Downloading android vr player API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena erros do investidor iniciante: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=J3b-PXE2OL4
+[youtube] J3b-PXE2OL4: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=FWQnCbalrAY
+[youtube] FWQnCbalrAY: Downloading webpage
+[youtube:search] query "Investidor Sardinha Raul Sena diversificação real carteira" page 1: Downloading API JSON
+[download]  53.8% of   15.84MiB at  395.95KiB/s ETA 00:18WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] J3b-PXE2OL4: Downloading android vr player API JSON
+[youtube:search] Playlist Investidor Sardinha Raul Sena diversificação real carteira: Downloading 10 items of 10
+[download] Video already in history
+[download] Video already in history
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=4jwggQa8Zl0
+[youtube] 4jwggQa8Zl0: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 2 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Diqpu_jWwsE
+[youtube] Diqpu_jWwsE: Downloading webpage
+[download]  71.4% of   20.24MiB at  467.83KiB/s ETA 00:12[download]  58.7% of   15.84MiB at  417.33KiB/s ETA 00:16WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] FWQnCbalrAY: Downloading android vr player API JSON
+[download]  73.3% of   20.24MiB at  483.30KiB/s ETA 00:11[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=cWNqf1gifR8
+[youtube] cWNqf1gifR8: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 4jwggQa8Zl0: Downloading android vr player API JSON
+[download]  60.9% of   15.84MiB at  418.57KiB/s ETA 00:15[download]  60.9% of   15.84MiB at   21.27KiB/s ETA 04:58[download]  60.9% of   15.84MiB at   46.56KiB/s ETA 02:16[download]  61.0% of   15.84MiB at   89.52KiB/s ETA 01:10[download]  61.0% of   15.84MiB at  191.20KiB/s ETA 00:33[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=51LGO_sCly8
+[youtube] 51LGO_sCly8: Downloading webpage
+[download]  61.1% of   15.84MiB at  169.05KiB/s ETA 00:37[download]  61.3% of   15.84MiB at  172.32KiB/s ETA 00:36WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Diqpu_jWwsE: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] cWNqf1gifR8: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download]  61.7% of   15.84MiB at  108.18KiB/s ETA 00:57[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=pAP23fbfABg
+[youtube] pAP23fbfABg: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=iWH7kzcS3qQ
+[youtube] iWH7kzcS3qQ: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 51LGO_sCly8: Downloading android vr player API JSON
+[download]  76.9% of   20.24MiB at  468.74KiB/s ETA 00:10[download]  62.2% of   15.84MiB at  150.83KiB/s ETA 00:40[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=VxuojjbQef8
+[youtube] VxuojjbQef8: Downloading webpage
+[download]  63.2% of   15.84MiB at  184.17KiB/s ETA 00:32WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] pAP23fbfABg: Downloading android vr player API JSON
+[download]  78.8% of   20.24MiB at  441.86KiB/s ETA 00:09[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=kQHA-Fx17fE
+[youtube] kQHA-Fx17fE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] VxuojjbQef8: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=uaFDrl3hPwk
+[youtube] uaFDrl3hPwk: Downloading webpage
+[download]  64.8% of   15.84MiB at  165.80KiB/s ETA 00:34WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] iWH7kzcS3qQ: Downloading android vr player API JSON
+[download]  65.6% of   15.84MiB at  176.54KiB/s ETA 00:31WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] kQHA-Fx17fE: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ESIuvelfouk
+[youtube] ESIuvelfouk: Downloading webpage
+[download]  79.9% of   20.24MiB at  402.91KiB/s ETA 00:10[download] Video is too new (after 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=YJPOVoUuzWA
+[youtube] YJPOVoUuzWA: Downloading webpage
+[download]  67.2% of   15.84MiB at  202.58KiB/s ETA 00:26WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] uaFDrl3hPwk: Downloading android vr player API JSON
+[download]  80.5% of   20.24MiB at  400.52KiB/s ETA 00:10[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=by0skE9uM-c
+[youtube] by0skE9uM-c: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ESIuvelfouk: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Vy2BaavzBkU
+[youtube] Vy2BaavzBkU: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] by0skE9uM-c: Downloading android vr player API JSON
+[download]  69.5% of   15.84MiB at  206.16KiB/s ETA 00:24[download]  81.7% of   20.24MiB at  381.97KiB/s ETA 00:09[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena diversificação real carteira
+
+--- [search] Investidor Sardinha Raul Sena rebalanceamento periodico ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena rebalanceamento periodico
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena rebalanceamento periodico
+[download] Downloading playlist: Investidor Sardinha Raul Sena rebalanceamento periodico
+[youtube:search] query "Investidor Sardinha Raul Sena rebalanceamento periodico": Downloading web client config
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] YJPOVoUuzWA: Downloading android vr player API JSON
+[download]  82.5% of   20.24MiB at  384.10KiB/s ETA 00:09WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Vy2BaavzBkU: Downloading android vr player API JSON
+[download]  70.8% of   15.84MiB at  224.48KiB/s ETA 00:21[download]  84.2% of   20.24MiB at  398.73KiB/s ETA 00:08[download] Video is too old (before 2025)
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=AdxOee_aik4
+[youtube] AdxOee_aik4: Downloading webpage
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=_y1HO_BtnQA
+[youtube] _y1HO_BtnQA: Downloading webpage
+[download]  73.5% of   15.84MiB at  268.46KiB/s ETA 00:16[download]  87.5% of   20.24MiB at  427.88KiB/s ETA 00:06[youtube:search] query "Investidor Sardinha Raul Sena rebalanceamento periodico" page 1: Downloading API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] _y1HO_BtnQA: Downloading android vr player API JSON
+[download]  78.8% of   15.84MiB at  332.18KiB/s ETA 00:10[download] Video is too old (before 2025)
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=bWryHSLyuK0
+[youtube] bWryHSLyuK0: Downloading webpage
+[youtube:search] query "Investidor Sardinha Raul Sena rebalanceamento periodico" page 2: Downloading API JSON
+[download]  94.1% of   20.24MiB at  468.35KiB/s ETA 00:02WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] AdxOee_aik4: Downloading android vr player API JSON
+WARNING: [youtube:search] Incomplete data received. Retrying (1/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena rebalanceamento periodico" page 2: Downloading API JSON
+[download] Video is too old (before 2025)
+[download]  83.5% of   15.84MiB at  378.25KiB/s ETA 00:07[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=3LPe2gqVU-Y
+[youtube] 3LPe2gqVU-Y: Downloading webpage
+WARNING: [youtube:search] Incomplete data received. Retrying (2/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena rebalanceamento periodico" page 2: Downloading API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] bWryHSLyuK0: Downloading android vr player API JSON
+[download]  96.2% of   20.24MiB at  467.89KiB/s ETA 00:01[download]  96.2% of   20.24MiB at  Unknown B/s ETA Unknown[download]  96.2% of   20.24MiB at  Unknown B/s ETA Unknown[download]  96.2% of   20.24MiB at  Unknown B/s ETA Unknown[download]  96.2% of   20.24MiB at    9.33MiB/s ETA 00:00  [download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena lições para enriquecer
+
+--- [search] Investidor Sardinha Raul Sena criando renda passiva acoes ---
+[download]  96.3% of   20.24MiB at  814.15KiB/s ETA 00:00[generic] Extracting URL: Investidor Sardinha Raul Sena criando renda passiva acoes
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena criando renda passiva acoes
+WARNING: [youtube:search] Incomplete data received. Retrying (3/3)...
+[download]  96.5% of   20.24MiB at  844.89KiB/s ETA 00:00[youtube:search] query "Investidor Sardinha Raul Sena rebalanceamento periodico" page 2: Downloading API JSON
+[download] Downloading playlist: Investidor Sardinha Raul Sena criando renda passiva acoes
+[youtube:search] query "Investidor Sardinha Raul Sena criando renda passiva acoes": Downloading web client config
+[download]  96.8% of   20.24MiB at  930.08KiB/s ETA 00:00[download]  97.4% of   20.24MiB at  763.09KiB/s ETA 00:00[download]  88.5% of   15.84MiB at  423.33KiB/s ETA 00:04WARNING: [youtube:search] Incomplete data received. Giving up after 3 retries
+[youtube:search] Playlist Investidor Sardinha Raul Sena rebalanceamento periodico: Downloading 7 items of 7
+[download] Downloading item 1 of 7
+[youtube] Extracting URL: https://www.youtube.com/watch?v=bZcY-zmJpo8
+[youtube] bZcY-zmJpo8: Downloading webpage
+[download]  98.6% of   20.24MiB at  535.51KiB/s ETA 00:00[youtube:search] query "Investidor Sardinha Raul Sena criando renda passiva acoes" page 1: Downloading API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] bZcY-zmJpo8: Downloading android vr player API JSON
+[download] 100.0% of   20.24MiB at  607.50KiB/s ETA 00:00[download] 100% of   20.24MiB in 00:01:00 at 344.87KiB/s 
+[History] Saving verified download: O fim do índice bovespa? O novo índice
+
+[ExtractAudio] Destination: output\raul_sena_2025_new\O_fim_do_indice_bovespa_O_novo_indice - 25-06-2025.mp3
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 3LPe2gqVU-Y: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download]  94.1% of   15.84MiB at  458.49KiB/s ETA 00:02[download] Downloading item 2 of 7
+[youtube] Extracting URL: https://www.youtube.com/watch?v=wteMP_AmcqY
+[youtube] wteMP_AmcqY: Downloading webpage
+[youtube:search] Playlist Investidor Sardinha Raul Sena criando renda passiva acoes: Downloading 10 items of 10
+[download] Downloading item 1 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=sEADPS0-eio
+[youtube] sEADPS0-eio: Downloading webpage
+[download]  98.9% of   15.84MiB at  506.77KiB/s ETA 00:00[download] 100.0% of   15.84MiB at  518.07KiB/s ETA 00:00[download] 100% of   15.84MiB in 00:00:36 at 446.44KiB/s 
+[History] Saving verified download: Qual carro você deveria comprar com o seu salário?
+
+[ExtractAudio] Destination: output\raul_sena_2025_new\Qual_carro_voce_deveria_comprar_com_o_seu_salario - 23-01-2025.mp3
+[download] Video is too new (after 2025)
+[download] Downloading item 8 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=W8plUats8Y0
+[youtube] W8plUats8Y0: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] wteMP_AmcqY: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 3 of 7
+[youtube] Extracting URL: https://www.youtube.com/watch?v=v8vVEghUifg
+[youtube] v8vVEghUifg: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] sEADPS0-eio: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 3 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=bx-sTOSteRA
+[youtube] bx-sTOSteRA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] W8plUats8Y0: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] v8vVEghUifg: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ThEUp083SzY
+[youtube] ThEUp083SzY: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 4 of 7
+[youtube] Extracting URL: https://www.youtube.com/watch?v=YpwFTYbbJv4
+[youtube] YpwFTYbbJv4: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] bx-sTOSteRA: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 4 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=j7fDhCESNJo
+[youtube] j7fDhCESNJo: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] YpwFTYbbJv4: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ThEUp083SzY: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 5 of 7
+[youtube] Extracting URL: https://www.youtube.com/watch?v=W-WIebpe5Hw
+[youtube] W-WIebpe5Hw: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 10 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=8nVguFCnPNg
+[youtube] 8nVguFCnPNg: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] j7fDhCESNJo: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 5 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=3LPe2gqVU-Y
+[youtube] 3LPe2gqVU-Y: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] W-WIebpe5Hw: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 6 of 7
+[youtube] Extracting URL: https://www.youtube.com/watch?v=pEUp3u-IszE
+[youtube] pEUp3u-IszE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 8nVguFCnPNg: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena erros do investidor iniciante
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 3LPe2gqVU-Y: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] pEUp3u-IszE: Downloading android vr player API JSON
+[download] Video is too new (after 2025)
+[download] Downloading item 6 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=aHpPFAiM8ak
+[youtube] aHpPFAiM8ak: Downloading webpage
+[download] Video is too old (before 2025)
+[download] Downloading item 7 of 7
+[youtube] Extracting URL: https://www.youtube.com/watch?v=3PfmjDQ5k04
+[youtube] 3PfmjDQ5k04: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] aHpPFAiM8ak: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Downloading item 7 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Gyl4Ec6h46c
+[youtube] Gyl4Ec6h46c: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 3PfmjDQ5k04: Downloading android vr player API JSON
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Gyl4Ec6h46c: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena rebalanceamento periodico
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Downloading item 9 of 10
+[youtube] Extracting URL: https://www.youtube.com/watch?v=rRom_hlUUyo
+[youtube] rRom_hlUUyo: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] rRom_hlUUyo: Downloading android vr player API JSON
+[download] Video is too old (before 2025)
+[download] Video already in history
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena criando renda passiva acoes
+Deleting original file output\raul_sena_2025_new\Qual_carro_voce_deveria_comprar_com_o_seu_salario - 23-01-2025.webm (pass -k to keep)
+[info] Maximum number of downloads reached, stopping due to --max-downloads
+Error downloading 'Investidor Sardinha Raul Sena salário 5 mil organizar': Maximum number of downloads reached, stopping due to --max-downloads
+Deleting original file output\raul_sena_2025_new\O_fim_do_indice_bovespa_O_novo_indice - 25-06-2025.webm (pass -k to keep)
+[info] Maximum number of downloads reached, stopping due to --max-downloads
+Error downloading 'Investidor Sardinha Raul Sena BOVA11 indice bovespa': Maximum number of downloads reached, stopping due to --max-downloads
+
+All downloads processed. Check the 'output' folder.

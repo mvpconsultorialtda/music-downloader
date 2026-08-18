@@ -1,0 +1,42 @@
+Reading queries from 'input' directory...
+Found 1 queries.
+Estrategia: 1 → 2 → 3 sequencial, depois 17 em paralelo (5 workers)
+
+Initializing FFmpeg...
+Adding existing file to history: A_bolsa_brasileira_pode_subir_ainda_mais_O_que_os_investidores_nao_perceberam - 08-08-2025
+Adding existing file to history: A_esquerda_vai_perder_as_eleicoes_Por_que_os_GRINGOS_estao_investindo_pesado_no_Brasil - 18-09-2025
+Adding existing file to history: Chegou_a_hora_de_vender_os_bancoes_Risco_de_falencia - 08-02-2025
+Adding existing file to history: Eu_vou_ter_filhos_Uma_discussao_financeira_e_realista - 01-09-2025
+Adding existing file to history: E_melhor_trabalhar_de_PJ_ou_CLT_Uma_das_burrices_da_classe_media... - 28-07-2025
+Adding existing file to history: Por_que_eu_nao_compro_casa_para_alugar_escute_com_humildade - 13-06-2025
+Date filter enabled: strict 2025 only
+
+=== FASE SEQUENCIAL: 1 faixas ===
+
+[1/1] Sequencial:
+
+--- [search] Investidor Sardinha Raul Sena holding familiar ---
+[generic] Extracting URL: Investidor Sardinha Raul Sena holding familiar
+[youtube:search] Extracting URL: ytsearch10:Investidor Sardinha Raul Sena holding familiar
+[download] Downloading playlist: Investidor Sardinha Raul Sena holding familiar
+[youtube:search] query "Investidor Sardinha Raul Sena holding familiar": Downloading web client config
+[youtube:search] query "Investidor Sardinha Raul Sena holding familiar" page 1: Downloading API JSON
+[youtube:search] query "Investidor Sardinha Raul Sena holding familiar" page 2: Downloading API JSON
+WARNING: [youtube:search] Incomplete data received. Retrying (1/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena holding familiar" page 2: Downloading API JSON
+WARNING: [youtube:search] Incomplete data received. Retrying (2/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena holding familiar" page 2: Downloading API JSON
+WARNING: [youtube:search] Incomplete data received. Retrying (3/3)...
+[youtube:search] query "Investidor Sardinha Raul Sena holding familiar" page 2: Downloading API JSON
+WARNING: [youtube:search] Incomplete data received. Giving up after 3 retries
+[youtube:search] Playlist Investidor Sardinha Raul Sena holding familiar: Downloading 7 items of 7
+[download] Video already in history
+[download] Video already in history
+[download] Channel "Cortes Investidor Sardinha [Oficial]" not in allowed list
+[download] Video already in history
+[download] Video already in history
+[download] Video already in history
+[download] Channel "Gêmeos Investem" not in allowed list
+[download] Finished downloading playlist: Investidor Sardinha Raul Sena holding familiar
+
+All downloads processed. Check the 'output' folder.

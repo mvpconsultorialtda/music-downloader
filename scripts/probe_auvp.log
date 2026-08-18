@@ -1,0 +1,11 @@
+OK https://www.youtube.com/@AUVPCapital/videos | canal=AUVP Capital - Videos | uploader=AUVP Capital | n=5
+   campos: ['__x_forwarded_for_ip', '_type', 'duration', 'id', 'ie_key', 'thumbnails', 'timestamp', 'title', 'url']
+   ex: {'title': 'The BILLION-DOLLAR empire behind CANVA', 'duration': 1361.0, 'timestamp': None, 'release_timestamp': None, 'id': 'MKiv4suUOOA'}
+OK https://www.youtube.com/@auvpcapital/videos | canal=AUVP Capital - Videos | uploader=AUVP Capital | n=5
+   campos: ['__x_forwarded_for_ip', '_type', 'duration', 'id', 'ie_key', 'thumbnails', 'timestamp', 'title', 'url']
+   ex: {'title': 'The BILLION-DOLLAR empire behind CANVA', 'duration': 1361.0, 'timestamp': None, 'release_timestamp': None, 'id': 'MKiv4suUOOA'}
+ERROR: [youtube:tab] @AUVP: This channel does not have a videos tab
+FAIL https://www.youtube.com/@AUVP/videos: ERROR: [youtube:tab] @AUVP: This channel does not have a videos tab
+OK https://www.youtube.com/results?search_query=auvp+capital | canal=auvp capital | uploader=None | n=5
+   campos: ['__x_forwarded_for_ip', '_type', 'channel', 'channel_follower_count', 'channel_id', 'channel_is_verified', 'channel_url', 'description', 'id', 'ie_key', 'playlist_count', 'thumbnails', 'title', 'uploader', 'uploader_id', 'uploader_url', 'url']
+   ex: {'title': 'AUVP Capital', 'duration': None, 'timestamp': None, 'release_timestamp': None, 'id': 'UCtXWjt7GelTcrlaHVey00WQ'}

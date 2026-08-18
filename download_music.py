@@ -4,6 +4,61 @@ import glob
 import json
 import static_ffmpeg
 
+# --- PO Token (obrigatorio desde ago/2026) ---------------------------------
+# O YouTube passou a exigir um "Proof of Origin Token" nos clientes web. Sem
+# ele o yt-dlp cai no cliente android_vr, cujas URLs de midia retornam HTTP 403.
+# O token e gerado pelo servidor bgutil, que precisa estar no ar antes do
+# download. Ver docs/DOC-TECNICO.md ("Setup do PO Token").
+POT_SERVER_URL = 'http://127.0.0.1:4416'
+POT_SERVER_HOME = os.path.expanduser('~/bgutil-ytdlp-pot-provider/server')
+JS_RUNTIME = 'node'  # necessario para resolver os desafios JS do YouTube
+
+
+def pot_server_alive(timeout=3):
+    """Retorna True se o servidor de PO Token responde no /ping."""
+    import urllib.request
+    try:
+        with urllib.request.urlopen(f'{POT_SERVER_URL}/ping', timeout=timeout) as r:
+            return r.status == 200
+    except Exception:
+        return False
+
+
+def ensure_pot_server(wait_seconds=60):
+    """Garante o servidor de PO Token no ar; sobe em background se preciso.
+
+    Retorna True se o servidor esta respondendo ao final.
+    """
+    import subprocess
+    import time
+
+    if pot_server_alive():
+        print(f'[POT] Servidor ja ativo em {POT_SERVER_URL}')
+        return True
+
+    main_js = os.path.join(POT_SERVER_HOME, 'build', 'main.js')
+    if not os.path.exists(main_js):
+        print(f'[POT] AVISO: servidor nao encontrado em {main_js}\n'
+              f'[POT] Downloads vao falhar com HTTP 403. '
+              f'Veja docs/DOC-TECNICO.md para o setup.')
+        return False
+
+    print(f'[POT] Subindo servidor: node {main_js}')
+    create_flags = getattr(subprocess, 'CREATE_NO_WINDOW', 0)
+    subprocess.Popen([JS_RUNTIME, main_js],
+                     cwd=POT_SERVER_HOME,
+                     stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                     creationflags=create_flags)
+
+    for _ in range(wait_seconds):
+        if pot_server_alive():
+            print('[POT] Servidor pronto.')
+            return True
+        time.sleep(1)
+
+    print('[POT] AVISO: servidor nao respondeu a tempo. Downloads podem falhar.')
+    return False
+
 def load_config():
     """Loads configuration from config.json."""
     config_path = 'config.json'
@@ -209,51 +264,11 @@ def progress_hook(d):
             print(f"\n[History] Saving verified download: {entry['title']}")
             save_history_entry(entry)
 
-def download_audio(query_list):
-    # Ensure ffmpeg is available
-    print("Initializing FFmpeg...")
-    static_ffmpeg.add_paths()
-    
-    # Populate history from existing files first
-    populate_history_from_disk()
-    
-    config = load_config()
+def _build_ydl_opts(config, output_dir):
+    """Build yt-dlp options dict with all filters."""
     filter_after_2025 = config.get('filter_after_2025', False)
-    output_dir = config.get('output_dir', 'output')
-
-    # Create output directory if it doesn't exist
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-
-    ydl_opts = {
-        'format': 'bestaudio/best',
-        'postprocessors': [{
-            'key': 'FFmpegExtractAudio',
-            'preferredcodec': 'mp3',
-            'preferredquality': '192',
-        }],
-        # Using >%d-%m-%Y for Brazilian format Day-Month-Year
-        'outtmpl': f'{output_dir}/%(title)s - %(upload_date>%d-%m-%Y)s.%(ext)s',
-        # Search top 10 results to find one that matches the date filter
-        'default_search': 'ytsearch10',
-        'max_downloads': 1, # Stop after downloading 1 matching video per query
-        'noplaylist': True,
-        'quiet': False,
-        'no_warnings': False,
-        'restrictfilenames': True,
-        'progress_hooks': [progress_hook],
-        'match_filter': lambda info, incomplete=False: 'Video already in history' if check_history(info) else None
-    }
-    
-    if filter_after_2025:
-        print("Date filter enabled: strict check for > 2025-01-01")
-        # Chain filters not easily supported in simple config, let's wrap logic
-        # Or just add logic inside match_filter
-        pass
-
     allowed_channels = config.get('allowed_channels', [])
 
-    # Wrap filters
     def combined_filter(info, *, incomplete=False):
         if check_history(info):
             return 'Video already in history'
@@ -263,46 +278,113 @@ def download_audio(query_list):
                 return result
         if allowed_channels:
             channel = info.get('channel') or info.get('uploader') or ''
-            if not any(ch.lower() in channel.lower() for ch in allowed_channels):
+            # Skip channel check when channel is empty (search/incomplete phase)
+            if channel and not any(ch.lower() in channel.lower() for ch in allowed_channels):
                 return f'Channel "{channel}" not in allowed list'
         return None
-        
-    ydl_opts['match_filter'] = combined_filter
 
-    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        for query in query_list:
-            # Check if it's a direct URL or a search query
-            if query.startswith('http://') or query.startswith('https://'):
-                # Direct URL - download as-is
-                search_query = query
-                print(f"\n--- Downloading direct URL: {search_query} ---")
-            else:
-                # Search query - prepend with search
-                search_query = query
-                print(f"\n--- Searching and downloading: {search_query} ---")
-            
+    return {
+        'format': 'bestaudio/best',
+        'postprocessors': [{
+            'key': 'FFmpegExtractAudio',
+            'preferredcodec': 'mp3',
+            'preferredquality': '192',
+        }],
+        'outtmpl': f'{output_dir}/%(title)s - %(upload_date>%d-%m-%Y)s.%(ext)s',
+        'default_search': 'ytsearch10',
+        'max_downloads': 1,
+        'noplaylist': True,
+        'quiet': False,
+        'no_warnings': False,
+        'restrictfilenames': True,
+        'progress_hooks': [progress_hook],
+        'match_filter': combined_filter,
+        # Sem runtime JS o YouTube nao entrega os formatos do cliente web.
+        # A API Python espera {runtime: {config}}, nao a lista do CLI.
+        'js_runtimes': {JS_RUNTIME: {}},
+    }
+
+
+def download_single(query, config, output_dir):
+    """Download a single query using its own yt-dlp instance (thread-safe)."""
+    ydl_opts = _build_ydl_opts(config, output_dir)
+    label = "direct URL" if query.startswith('http') else "search"
+    print(f"\n--- [{label}] {query} ---")
+    try:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            ydl.download([query])
+    except Exception as e:
+        print(f"Error downloading '{query}': {e}")
+
+
+def download_audio(query_list, sequential_first=3, parallel_workers=5):
+    """Download sequentially for the first N queries, then in parallel for the rest.
+
+    Args:
+        query_list: list of search queries or URLs
+        sequential_first: how many to download one-by-one before going parallel
+        parallel_workers: max concurrent workers for the parallel batch
+    """
+    import concurrent.futures
+
+    print("Initializing FFmpeg...")
+    static_ffmpeg.add_paths()
+
+    ensure_pot_server()
+
+    populate_history_from_disk()
+
+    config = load_config()
+    output_dir = config.get('output_dir', 'output')
+
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    if config.get('filter_after_2025', False):
+        print("Date filter enabled: strict 2025 only")
+
+    sequential_queries = query_list[:sequential_first]
+    parallel_queries = query_list[sequential_first:]
+
+    # --- Sequential phase ---
+    print(f"\n=== FASE SEQUENCIAL: {len(sequential_queries)} faixas ===")
+    for i, query in enumerate(sequential_queries, 1):
+        print(f"\n[{i}/{len(sequential_queries)}] Sequencial:")
+        download_single(query, config, output_dir)
+
+    if not parallel_queries:
+        return
+
+    # --- Parallel phase ---
+    print(f"\n=== FASE PARALELA: {len(parallel_queries)} faixas ({parallel_workers} workers) ===")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=parallel_workers) as executor:
+        futures = {
+            executor.submit(download_single, q, config, output_dir): q
+            for q in parallel_queries
+        }
+        for future in concurrent.futures.as_completed(futures):
+            q = futures[future]
             try:
-                ydl.download([search_query])
+                future.result()
             except Exception as e:
-                print(f"Error downloading {search_query}: {e}")
+                print(f"[Paralelo] Erro em '{q}': {e}")
+
 
 if __name__ == "__main__":
     import sys
-    # Handle Unicode characters in console output
     if sys.stdout.encoding != 'utf-8':
         try:
             sys.stdout.reconfigure(encoding='utf-8')
         except AttributeError:
-            # Fallback for older python versions
             pass
 
     print("Reading queries from 'input' directory...")
     queries = load_queries()
-    
+
     if not queries:
         print("No queries found in 'input/*.txt'. Please add some search terms to download.")
     else:
-        print(f"Found {len(queries)} queries: {queries}")
-        print(f"Starting download...")
-        download_audio(queries)
+        print(f"Found {len(queries)} queries.")
+        print("Estrategia: 1 → 2 → 3 sequencial, depois 17 em paralelo (5 workers)\n")
+        download_audio(queries, sequential_first=3, parallel_workers=5)
         print("\nAll downloads processed. Check the 'output' folder.")

@@ -1,1 +1,8 @@
-yt-dlp
+# yt-dlp: usar nightly. A versao estavel nao acompanha os experimentos que o
+# YouTube liga sem aviso (PO Token / SABR) e o download morre em HTTP 403.
+--pre
+yt-dlp[default]
+static_ffmpeg
+# Provider de PO Token. Alem deste pacote, o servidor Node precisa estar
+# buildado em ~/bgutil-ytdlp-pot-provider/server (ver docs/DOC-TECNICO.md).
+bgutil-ytdlp-pot-provider

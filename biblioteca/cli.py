@@ -58,19 +58,28 @@ def cmd_conferir(args):
 
     por_acervo = {}
     em_disco = 0
-    for reg in cat.itens.values():
-        por_acervo.setdefault(reg.get('acervo') or '(sem acervo)', []).append(reg)
-        if reg.get('arquivos'):
+    anotados_sem_arquivo = 0
+    for video_id, reg in cat.itens.items():
+        presente = bool(cat.presentes(video_id))
+        por_acervo.setdefault(reg.get('acervo') or '(sem acervo)', []).append(presente)
+        if presente:
             em_disco += 1
+        elif reg.get('arquivos'):
+            anotados_sem_arquivo += 1
 
-    print(f'catalogo: {len(cat.itens)} ids  |  {em_disco} com arquivo em disco  '
-          f'|  {len(cat.itens) - em_disco} so na memoria')
+    print(f'catalogo: {len(cat.itens)} ids  |  {em_disco} com arquivo neste disco  '
+          f'|  {len(cat.itens) - em_disco} so no catalogo')
+    if anotados_sem_arquivo:
+        # O catalogo viaja no git e a midia nao. Num clone novo isto e o normal,
+        # e e a unica coisa que separa "a biblioteca esta aqui" de "o indice dela".
+        print(f'  destes, {anotados_sem_arquivo} tem caminho anotado cujo arquivo '
+              f'nao esta neste disco (midia fora do git)')
     print(f'incertos (sem id, nunca terao): {len(cat.sem_id)}')
     print()
-    print(f'{"acervo":<32} {"ids":>5} {"com arquivo":>12}')
+    print(f'{"acervo":<32} {"ids":>5} {"neste disco":>12}')
     for acervo in sorted(por_acervo):
-        regs = por_acervo[acervo]
-        print(f'{acervo:<32} {len(regs):>5} {sum(1 for r in regs if r.get("arquivos")):>12}')
+        presencas = por_acervo[acervo]
+        print(f'{acervo:<32} {len(presencas):>5} {sum(presencas):>12}')
 
     dups = cat.duplicatas_em_disco()
     if dups:

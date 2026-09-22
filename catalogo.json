@@ -1,7 +1,7 @@
 {
   "versao": 1,
-  "gerado": "2026-09-22T14:55:16-03:00",
-  "total": 221,
+  "gerado": "2026-09-22T15:16:15-03:00",
+  "total": 223,
   "itens": {
     "-Gc9xqi3F9Q": {
       "id": "-Gc9xqi3F9Q",
@@ -2666,6 +2666,34 @@
       "titulo": "O que existe por trás dos preços baixos da DECATHLON",
       "canal": "AUVP Capital",
       "publicado": "2026-09-13",
+      "acervo": "auvp-capital-negocios",
+      "formato": "audio",
+      "origem": "download"
+    },
+    "eShIO9tAZz0": {
+      "id": "eShIO9tAZz0",
+      "url": "https://www.youtube.com/watch?v=eShIO9tAZz0",
+      "arquivos": [
+        "output/auvp-capital-negocios/2026-09-04_O_que_aconteceu_com_a_Shein_[eShIO9tAZz0].mp3"
+      ],
+      "visto_em": "2026-09-22T15:15:55-03:00",
+      "titulo": "O que aconteceu com a Shein?",
+      "canal": "AUVP Capital",
+      "publicado": "2026-09-04",
+      "acervo": "auvp-capital-negocios",
+      "formato": "audio",
+      "origem": "download"
+    },
+    "MKiv4suUOOA": {
+      "id": "MKiv4suUOOA",
+      "url": "https://www.youtube.com/watch?v=MKiv4suUOOA",
+      "arquivos": [
+        "output/auvp-capital-negocios/2026-08-16_O_imperio_BILIONARIO_por_tras_do_CANVA_[MKiv4suUOOA].mp3"
+      ],
+      "visto_em": "2026-09-22T15:16:15-03:00",
+      "titulo": "O império BILIONÁRIO por trás do CANVA",
+      "canal": "AUVP Capital",
+      "publicado": "2026-08-16",
       "acervo": "auvp-capital-negocios",
       "formato": "audio",
       "origem": "download"

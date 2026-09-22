@@ -99,6 +99,23 @@ Perguntar *já temos?* é consultar uma chave. `sem_id` guarda o que veio de
 varredura antiga e nunca vai ter id: é memória fraca, **não trava download
 nenhum** — travar por título foi exatamente o defeito.
 
+### O catálogo viaja; a mídia não
+
+`catalogo.json` está no git. `output/` não está — são 7,2 GB. Num clone novo, portanto,
+todo caminho anotado aponta para um arquivo que não está ali, e o repositório é o **índice**
+de uma biblioteca cuja mídia mora noutra máquina.
+
+Por isso quem pergunta *quantos temos em disco* olha o disco, não a anotação:
+
+```
+catalogo: 223 ids  |  2 com arquivo neste disco  |  221 so no catalogo
+  destes, 212 tem caminho anotado cujo arquivo nao esta neste disco (midia fora do git)
+```
+
+O mesmo vale para `duplicatas`: dois caminhos anotados com só um arquivo presente não são
+duplicata **neste** disco. Já a trava de download continua sendo o catálogo inteiro — não
+se baixa de novo um vídeo que existe noutra máquina só porque este clone está vazio.
+
 Para reconstruir o catálogo do zero, a partir do disco e do `history.json`:
 
 ```bash
@@ -145,7 +162,7 @@ achar. O setup está em [`docs/DOC-TECNICO.md`](docs/DOC-TECNICO.md).
 python -m unittest discover -s testes -v
 ```
 
-29 testes, sem rede. Cada um existe porque um defeito medido existiu, e o nome
+32 testes, sem rede. Cada um existe porque um defeito medido existiu, e o nome
 do teste diz qual.
 
 ## O que ficou para trás

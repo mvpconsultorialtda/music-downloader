@@ -1,0 +1,13 @@
+{
+  "acervo": "auvp-capital-negocios",
+  "descricao": "AUVP Capital, os videos de negocios: historia de empresa, caso de mercado, o que deu certo e o que quebrou. Substitui as pastas auvp_capital_casos e auvp_capital_2025, que eram duas batidas do mesmo acervo.",
+  "canais_permitidos": ["AUVP Capital"],
+  "formato": "audio",
+  "duracao_minima_minutos": 8,
+  "corte": { "ativo": false },
+  "resultados_por_busca": 10,
+  "alvos": [
+    "https://www.youtube.com/watch?v=pnVWzqttbJI",
+    "https://www.youtube.com/watch?v=DNRZjegpjxg"
+  ]
+}

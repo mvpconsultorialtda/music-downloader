@@ -1,6 +1,6 @@
 {
-    "filter_after_2025": true,
-    "output_dir": "output/auvp_capital_2025",
+    "filter_after_2025": false,
+    "output_dir": "output/auvp_capital_casos",
     "split_enabled": false,
     "split_max_minutes": 15,
     "split_min_minutes": 5,

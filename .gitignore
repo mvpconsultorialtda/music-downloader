@@ -1,4 +1,11 @@
+# A midia nao sobe: sao 7,2 GB.
 output/
+output_backup_pre_volume/
+
+# Despejos e logs de varredura. Eram commitados; nao sao mais.
+*.log
+legado/scripts/*.json
+
 __pycache__/
 *.pyc
 .env

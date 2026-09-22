@@ -83,15 +83,27 @@ class Catalogo:
     def por_acervo(self, acervo):
         return {k: v for k, v in self.itens.items() if v.get('acervo') == acervo}
 
+    def presentes(self, video_id):
+        """Os arquivos deste id que existem AGORA, neste disco.
+
+        O catalogo viaja no git; a midia nao (sao 7,2 GB no `.gitignore`). Num
+        clone novo, portanto, todo caminho anotado aponta para arquivo que nao
+        esta la. Quem responde "quantos temos em disco" tem que olhar o disco,
+        nao a anotacao -- senao um clone recem-feito se declara cheio.
+        """
+        reg = self.itens.get(video_id) or {}
+        return [a for a in reg.get('arquivos', []) if os.path.exists(a)]
+
     def duplicatas_em_disco(self):
-        """Ids com mais de um arquivo inteiro em disco (cortes _part nao contam).
+        """Ids com mais de um arquivo inteiro PRESENTE (cortes _part nao contam).
 
         E o relatorio que mostra o estrago da convencao antiga sem apagar nada:
         apagar midia e decisao do operador (duvida 4).
         """
         achados = {}
-        for video_id, reg in self.itens.items():
-            inteiros = [a for a in reg.get('arquivos', []) if '_part' not in os.path.basename(a)]
+        for video_id in self.itens:
+            inteiros = [a for a in self.presentes(video_id)
+                        if '_part' not in os.path.basename(a)]
             if len(inteiros) > 1:
                 achados[video_id] = inteiros
         return achados

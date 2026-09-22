@@ -119,13 +119,42 @@ class ATravaDeRepeticao(unittest.TestCase):
         self.cat.anotar_sem_id('X', 'output/antigo.mp3')
         self.assertEqual(len(self.cat.sem_id), 1)
 
+    def _arquivo(self, nome):
+        caminho = os.path.join(self.pasta, nome)
+        os.makedirs(os.path.dirname(caminho), exist_ok=True)
+        with open(caminho, 'wb') as f:
+            f.write(b'\x00' * 16)
+        return caminho
+
     def test_duplicatas_em_disco_ignora_os_cortes(self):
         # Um `_partNNN` ao lado do inteiro nao e duplicata: e corte.
-        self.cat.anotar('BdIfc-hvb2Y', arquivo='output/v.mp3')
-        self.cat.anotar('BdIfc-hvb2Y', arquivo='output/v_part000.mp3')
+        self.cat.anotar('BdIfc-hvb2Y', arquivo=self._arquivo('v.mp3'))
+        self.cat.anotar('BdIfc-hvb2Y', arquivo=self._arquivo('v_part000.mp3'))
         self.assertEqual(self.cat.duplicatas_em_disco(), {})
-        self.cat.anotar('BdIfc-hvb2Y', arquivo='output/outra_pasta/v.mp3')
+        self.cat.anotar('BdIfc-hvb2Y', arquivo=self._arquivo('outra_pasta/v.mp3'))
         self.assertIn('BdIfc-hvb2Y', self.cat.duplicatas_em_disco())
+
+    def test_presentes_olha_o_disco_e_nao_a_anotacao(self):
+        # O catalogo viaja no git; a midia nao. Num clone novo todo caminho
+        # anotado aponta para arquivo ausente, e o clone nao pode se declarar
+        # cheio por causa disso.
+        existe = self._arquivo('existe.mp3')
+        self.cat.anotar('BdIfc-hvb2Y', arquivo=existe)
+        self.cat.anotar('BdIfc-hvb2Y', arquivo=os.path.join(self.pasta, 'sumiu.mp3'))
+        self.assertEqual(len(self.cat.registro('BdIfc-hvb2Y')['arquivos']), 2)
+        # `anotar` guarda com barra normal; comparar pelo caminho normalizado.
+        presentes = [os.path.normcase(os.path.normpath(a))
+                     for a in self.cat.presentes('BdIfc-hvb2Y')]
+        self.assertEqual(presentes, [os.path.normcase(os.path.normpath(existe))])
+
+    def test_duplicata_so_conta_arquivo_que_existe(self):
+        # Dois caminhos anotados, um so em disco: nao e duplicata neste disco.
+        self.cat.anotar('BdIfc-hvb2Y', arquivo=self._arquivo('aqui.mp3'))
+        self.cat.anotar('BdIfc-hvb2Y', arquivo=os.path.join(self.pasta, 'noutra_maquina.mp3'))
+        self.assertEqual(self.cat.duplicatas_em_disco(), {})
+
+    def test_presentes_de_id_desconhecido_e_lista_vazia(self):
+        self.assertEqual(self.cat.presentes('naoexiste00'), [])
 
 
 class OPerfilEAInstrucao(unittest.TestCase):

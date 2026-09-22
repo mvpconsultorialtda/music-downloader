@@ -1,13 +1,23 @@
 ---
 tipo: documentacao
 criado: 2026-04-07
-atualizado: 2026-04-07
+atualizado: 2026-09-22
 tags: [tech, music_downloader]
 temas: [tech/music_downloader]
 modo: tech
 ---
 
 # Music Downloader
+
+> **Aviso, 2026-09-22.** A reformulacao do ticket `0022-biblioteca-do-youtube`
+> trocou a camada de uso: o baixador agora e `python -m biblioteca`, a instrucao
+> mora em `perfis/<acervo>.json` e a memoria e o `catalogo.json`, chaveado pelo
+> id do video. **Como se usa hoje esta no [`README.md`](../README.md).**
+>
+> As secoes abaixo que falam de `download_music.py`, `config.json` e `input/*.txt`
+> descrevem o baixador anterior, que continua inteiro em [`legado/`](../legado/LEIA.md)
+> e continua executavel. A secao **Setup do PO Token** vale para os dois e e a
+> unica daqui de que a camada nova ainda depende.
 
 ## Visao Geral
 
@@ -152,6 +162,59 @@ ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 arquivo.mp3
 
 Divergencia > 0.6 min = truncado: apague o arquivo, remova a entrada do
 `history.json` e baixe de novo.
+
+## Descobrir o que ainda NAO foi baixado
+
+`scripts/find_auvp_novos.py` cruza o catalogo do canal AUVP Capital com o que
+ja existe (`history.json` + os nomes dos MP3 em `output/`) e imprime so o que
+falta.
+
+```bash
+python scripts/find_auvp_novos.py            # usa o cache do canal
+python scripts/find_auvp_novos.py --refresh  # rebusca a lista no YouTube
+```
+
+Duas armadilhas que o script ja trata, e que fazem video ja baixado reaparecer
+como novo se voce escrever a comparacao na mao:
+
+- **Titulos traduzidos.** Sem `extractor_args={"youtube": {"lang": ["pt"]}}` o
+  YouTube devolve os titulos auto-traduzidos para ingles ("What happened to
+  Shein?"), que nunca casam com os arquivos em portugues no disco. O codigo de
+  idioma e `pt` — `pt-BR` e recusado pelo extractor.
+- **Acentos.** A normalizacao precisa passar por `unicodedata.normalize("NFKD")`
+  antes de jogar fora o que nao e `[a-z0-9]`. Sem isso "está" vira "est" e
+  "esta" vira "esta", e o par nao casa. Foi exatamente o que escondeu o
+  "MERCADO LIVRE virando um BANCO" na primeira rodada.
+
+A dedup por `id` e a confiavel; a por titulo so existe porque os arquivos
+baixados antes do `progress_hook` entraram no historico sem ID (`source:
+disk_scan`).
+
+## Aumentar o volume dos MP3
+
+`scripts/boost_volume.py` aplica +25% de ganho (1.25x = +1.94 dB) em todos os
+MP3 de `output/`, movendo os originais para `output_backup_pre_volume/`
+preservando a arvore de pastas.
+
+```bash
+python scripts/boost_volume.py
+```
+
+**Por que tem um limiter no meio.** Os arquivos do canal chegam com pico em
+torno de -0.4 dBFS e media em -18 dB: o que soa baixo e a media, nao o pico.
+Um `volume=1.25` puro estoura o teto e distorce. Por isso a cadeia e
+
+```
+volume=1.25,alimiter=level_in=1:level_out=1:limit=0.98:attack=5:release=50
+```
+
+O corpo do audio sobe os 25% pedidos e so os picos curtos encostam no limiter.
+Se o que voce quer e volume *consistente* entre arquivos (e nao +25% sobre cada
+um), troque a cadeia por `loudnorm=I=-16:TP=-1.5:LRA=11`.
+
+O script e resumivel: arquivo que ja tem copia em `output_backup_pre_volume/`
+e pulado, entao da para interromper e rodar de novo. O bitrate de saida
+acompanha o da origem.
 
 ## Roadmap
 

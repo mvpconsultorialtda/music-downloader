@@ -15,6 +15,7 @@ vídeo?* sem errar. É isso que `biblioteca/` passou a fazer.
 | `input/*.txt` | o campo `alvos` de cada perfil | A instrução vivia separada do destino. Agora as duas metades moram no mesmo arquivo. |
 | `scripts/find_*.py` | `python -m biblioteca baixar <perfil>` | Eram buscas de uma vez só, com seus `.log` e seus despejos `.json` commitados ao lado. |
 | `split_audio.py` | ainda não substituído | O corte por duração continua sem equivalente na camada nova. O campo `corte` do perfil está reservado para ele. |
+| `DOC-ANTIGO.md` | `docs/DOC-TECNICO.md` + `README.md` | Era a maior parte do doc técnico. Descrevia `input/*.txt`, `config.json` e a arquitetura antiga — instruções que hoje levam ao lugar errado. O que continua valendo (PO Token, integridade do mp3) ficou em `docs/`. |
 
 ## O `download_music.py` ainda roda?
 
@@ -31,7 +32,11 @@ para conferir comportamento antigo.
 
 ## O `history.json`
 
-Continua na raiz, e continua sendo lido: `python -m biblioteca indexar` tira
-dele os 219 ids que existem, e foi com eles que 257 dos 300 arquivos em disco
-recuperaram o seu. Ele é **fonte de migração**, não fonte da verdade. A fonte é
-`catalogo.json`.
+Mora aqui desde 2026-09-23, e continua sendo lido: `python -m biblioteca indexar`
+tira dele os 219 ids que existem, e foi com eles que 257 dos 300 arquivos em
+disco recuperaram o seu. Ele é **fonte de migração**, não fonte da verdade — a
+fonte é `catalogo.json`, na raiz.
+
+`indexar` procura em `legado/history.json` e, se não achar, em `history.json` na
+raiz; quem clonou antes da mudança continua funcionando. Para apontar outro
+arquivo, `--history <caminho>`.

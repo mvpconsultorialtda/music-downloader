@@ -250,6 +250,36 @@ class AVarredura(unittest.TestCase):
         for reg in self.cat.itens.values():
             self.assertEqual(len(reg['arquivos']), len(set(reg['arquivos'])))
 
+    def test_acento_e_dobrado_e_nao_jogado_fora(self):
+        # docs/DOC-TECNICO.md ja avisava: sem NFKD, "está" vira "est" e nunca
+        # casa com o "esta" do nome de arquivo sanitizado.
+        pares = [
+            ('O que está acontecendo com a NOKIA?', 'O_que_esta_acontecendo_com_a_NOKIA'),
+            ('A história da TWITCH', 'A_historia_da_TWITCH'),
+            ('Ação e coração', 'Acao_e_coracao'),
+            ('O “lixo” da PETROBRAS', 'O_lixo_da_PETROBRAS'),
+        ]
+        for titulo, arquivo in pares:
+            with self.subTest(titulo=titulo):
+                self.assertEqual(varredura.assinatura(titulo), varredura.assinatura(arquivo))
+
+    def test_separa_id_perdido_de_arquivo_que_nunca_foi_do_youtube(self):
+        # O `outtmpl` antigo terminava em ` - DD-MM-AAAA`. Quem tem a marca
+        # desceu do YouTube; quem nao tem e sample ou arquivo local.
+        self.assertTrue(varredura.veio_do_baixador('A_historia - 04-10-2025.mp3'))
+        self.assertTrue(varredura.veio_do_baixador('A_historia - 04-10-2025_part003.mp3'))
+        self.assertFalse(varredura.veio_do_baixador('sample-arrocha-db-1.mp3'))
+        self.assertFalse(varredura.veio_do_baixador('pagode-baiano-exemplo.mp3'))
+
+    def test_indexar_classifica_o_que_nao_tem_id(self):
+        self._criar('acervo-velho/Veio_do_baixador - 01-01-2025.mp3')
+        self._criar('acervo-velho/sample-local.mp3')
+        rel = varredura.indexar(self.cat, self.raiz, self.history)
+        self.assertEqual(rel['id_perdido'], 2)      # o orfao do setUp tambem tem data
+        self.assertEqual(rel['nao_e_do_youtube'], 1)
+        situacoes = {x['situacao'] for x in self.cat.sem_id}
+        self.assertEqual(situacoes, {'id-perdido', 'nao-e-do-youtube'})
+
     def test_titulo_provavel_tira_data_corte_e_id(self):
         self.assertEqual(
             varredura.titulo_provavel('2026-09-18_Como_a_BRF_[pnVWzqttbJI].mp3'),
@@ -351,3 +381,69 @@ class AReorganizacao(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
+
+
+class OHistoryMudouDeCasa(unittest.TestCase):
+    """`history.json` e fonte de migracao, nao fonte da verdade. Mora em legado/."""
+
+    def setUp(self):
+        self.pasta = tempfile.mkdtemp()
+        self.anterior = os.getcwd()
+        os.chdir(self.pasta)
+        os.makedirs('legado')
+
+    def tearDown(self):
+        os.chdir(self.anterior)
+        shutil.rmtree(self.pasta, ignore_errors=True)
+
+    def test_prefere_legado_quando_os_dois_existem(self):
+        open(os.path.join('legado', 'history.json'), 'w').close()
+        open('history.json', 'w').close()
+        self.assertEqual(varredura.achar_history(),
+                         os.path.join('legado', 'history.json'))
+
+    def test_aceita_o_da_raiz_de_clone_antigo(self):
+        open('history.json', 'w').close()
+        self.assertEqual(varredura.achar_history(), 'history.json')
+
+    def test_caminho_pedido_a_mao_vence(self):
+        open(os.path.join('legado', 'history.json'), 'w').close()
+        self.assertEqual(varredura.achar_history('outro.json'), 'outro.json')
+
+    def test_sem_nenhum_devolve_o_caminho_novo(self):
+        self.assertEqual(varredura.achar_history(),
+                         os.path.join('legado', 'history.json'))
+
+
+class AReclassificacao(unittest.TestCase):
+    """`incerto` era o rotulo unico da primeira versao. Ele nao pode ficar parado."""
+
+    def setUp(self):
+        self.pasta = tempfile.mkdtemp()
+        self.raiz = os.path.join(self.pasta, 'output')
+        os.makedirs(self.raiz)
+        self.cat = _catalogo.Catalogo(os.path.join(self.pasta, 'catalogo.json'))
+
+    def tearDown(self):
+        shutil.rmtree(self.pasta, ignore_errors=True)
+
+    def test_classifica_entrada_antiga_pelo_nome_guardado(self):
+        # O caso do clone: a midia nao esta neste disco, mas o nome esta no
+        # catalogo -- e a classificacao sai do nome.
+        self.cat.sem_id = [
+            {'titulo_arquivo': 'A', 'arquivo': 'output/A - 04-10-2025.mp3',
+             'origem': 'disco', 'situacao': 'incerto'},
+            {'titulo_arquivo': 'sample', 'arquivo': 'output/musicas/sample-arrocha.mp3',
+             'origem': 'disco', 'situacao': 'incerto'},
+        ]
+        rel = varredura.indexar(self.cat, self.raiz, os.path.join(self.pasta, 'nada.json'))
+        self.assertEqual(rel['reclassificados'], 2)
+        self.assertEqual([x['situacao'] for x in self.cat.sem_id],
+                         ['id-perdido', 'nao-e-do-youtube'])
+
+    def test_nao_mexe_no_que_ja_esta_classificado(self):
+        self.cat.sem_id = [{'titulo_arquivo': 'A', 'arquivo': 'output/A - 04-10-2025.mp3',
+                            'origem': 'disco', 'situacao': 'nao-e-do-youtube'}]
+        rel = varredura.indexar(self.cat, self.raiz, os.path.join(self.pasta, 'nada.json'))
+        self.assertEqual(rel['reclassificados'], 0)
+        self.assertEqual(self.cat.sem_id[0]['situacao'], 'nao-e-do-youtube')

@@ -1,102 +1,22 @@
 ---
 tipo: documentacao
 criado: 2026-04-07
-atualizado: 2026-09-22
+atualizado: 2026-09-23
 tags: [tech, music_downloader]
 temas: [tech/music_downloader]
 modo: tech
 ---
 
-# Music Downloader
+# Music Downloader — o que a maquina exige
 
-> **Aviso, 2026-09-22.** A reformulacao do ticket `0022-biblioteca-do-youtube`
-> trocou a camada de uso: o baixador agora e `python -m biblioteca`, a instrucao
-> mora em `perfis/<acervo>.json` e a memoria e o `catalogo.json`, chaveado pelo
-> id do video. **Como se usa hoje esta no [`README.md`](../README.md).**
+> Como a ferramenta se usa esta no [`README.md`](../README.md). Aqui fica o que o
+> **ambiente** exige para o download funcionar, que e a parte que quebra sozinha.
 >
-> As secoes abaixo que falam de `download_music.py`, `config.json` e `input/*.txt`
-> descrevem o baixador anterior, que continua inteiro em [`legado/`](../legado/LEIA.md)
-> e continua executavel. A secao **Setup do PO Token** vale para os dois e e a
-> unica daqui de que a camada nova ainda depende.
-
-## Visao Geral
-
-Script Python para download de audio do YouTube via busca por texto. Le queries de arquivos `.txt` na pasta `input/`, baixa os audios encontrados para `output/` em formato MP3, com filtro de data (apenas 2025 por default) e historico de downloads para evitar duplicatas.
-
-## Modelo de Negocio
-
-Ferramenta interna / utilitario. Provavelmente usada para montar playlists ou bancos de musica para uso em projetos de audio/podcast/conteudo da MVP.
-
-## Stack Tecnologica
-
-| Camada | Tecnologia | Versao |
-|--------|-----------|--------|
-| Linguagem | Python | 3.x |
-| Download YouTube | yt-dlp | — |
-| FFmpeg (bundled) | static_ffmpeg | — |
-
-## Arquitetura
-
-```
-input/*.txt         — arquivos com uma query por linha
-    │
-    download_music.py
-    │   ├── carrega config.json
-    │   ├── le queries dos .txt
-    │   ├── filtro de data (2025 por default)
-    │   └── yt-dlp search → download MP3
-    │
-output/             — arquivos MP3 baixados
-history.json        — registro de downloads anteriores (evita duplicatas)
-```
-
-Tambem inclui `split_audio.py` para divisao de arquivos de audio.
-
-## Como Rodar Localmente
-
-```bash
-pip install -r requirements.txt
-
-# Criar pasta input/ e adicionar arquivos .txt com queries
-mkdir input
-echo "Nome da musica - Artista" > input/minhas_musicas.txt
-
-python download_music.py
-```
-
-## Estrutura de Pastas
-
-```
-music_downloader/
-├── download_music.py      # Script principal de download
-├── split_audio.py         # Script para dividir arquivos de audio
-├── config.json            # Configuracao (filtros, opcoes yt-dlp)
-├── history.json           # Historico de downloads
-├── requirements.txt       # yt-dlp, static_ffmpeg
-├── verification_log.txt   # Log de verificacoes
-├── input/                 # Arquivos .txt com queries de busca
-└── output/                # Arquivos MP3 baixados
-```
-
-## APIs e Endpoints
-
-Sem API — ferramenta de linha de comando.
-
-## Configuracao (config.json)
-
-- `filter_after_2025` (bool): se `true`, baixa apenas videos de 2025
-
-## Deploy
-
-Execucao local apenas. Sem deploy.
-
-## Dependencias Externas
-
-- `yt-dlp` (nightly) — downloader YouTube
-- `yt-dlp-ejs` + Node.js >= 20 — resolve os desafios JS do YouTube
-- `bgutil-ytdlp-pot-provider` + servidor Node — gera o PO Token
-- `static_ffmpeg` — FFmpeg bundled (sem instalacao manual)
-- Acesso a internet para buscas no YouTube
+> A descricao do baixador anterior — arquitetura, `config.json`, `input/*.txt`, os
+> `scripts/find_*.py` — saiu daqui em 2026-09-23 e esta em
+> [`legado/DOC-ANTIGO.md`](../legado/DOC-ANTIGO.md), inteira. Ela descrevia uma camada
+> de uso que nao existe mais, e um aviso colado no topo nao impede ninguem de seguir
+> as instrucoes erradas logo abaixo.
 
 ## Setup do PO Token (obrigatorio desde ago/2026)
 
@@ -133,8 +53,8 @@ git clone --depth 1 --branch 1.3.1 \
 cd ~/bgutil-ytdlp-pot-provider/server && npm install && npx tsc
 ```
 
-O `download_music.py` sobe o servidor sozinho (`ensure_pot_server()`) e checa
-o `/ping` em `127.0.0.1:4416`. Para subir na mao:
+A biblioteca sobe o servidor sozinha (`biblioteca/baixador.py`, `garantir_pot()`)
+e checa o `/ping` em `127.0.0.1:4416`. Para subir na mao:
 
 ```bash
 node ~/bgutil-ytdlp-pot-provider/server/build/main.js
@@ -160,65 +80,24 @@ a duracao real com a do metadado:
 ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 arquivo.mp3
 ```
 
-Divergencia > 0.6 min = truncado: apague o arquivo, remova a entrada do
-`history.json` e baixe de novo.
+Divergencia > 0.6 min = truncado: apague o arquivo, tire o caminho do
+`catalogo.json` e baixe de novo.
 
-## Descobrir o que ainda NAO foi baixado
+**Nao meca o arquivo enquanto o processo roda.** O `ffprobe` num mp3 em escrita
+nao falha: devolve um numero menor e plausivel. Em 2026-09-22 um audio foi
+registrado como 20min23 quando tinha 22min41, porque a medicao rodou logo apos a
+linha `[ExtractAudio] Destination: ...`, que anuncia o **inicio** da escrita.
+Espere o processo terminar, e confira o numero contra a duracao que a listagem
+do canal ja informava.
 
-`scripts/find_auvp_novos.py` cruza o catalogo do canal AUVP Capital com o que
-ja existe (`history.json` + os nomes dos MP3 em `output/`) e imprime so o que
-falta.
 
-```bash
-python scripts/find_auvp_novos.py            # usa o cache do canal
-python scripts/find_auvp_novos.py --refresh  # rebusca a lista no YouTube
-```
+## Paralelismo: 3 e o teto pratico
 
-Duas armadilhas que o script ja trata, e que fazem video ja baixado reaparecer
-como novo se voce escrever a comparacao na mao:
+`baixar --paralelos N` reparte os alvos entre N threads. Com N=3, em 2026-09-23,
+2 de 20 downloads morreram em `HTTP Error 403: Forbidden` — o mesmo sintoma da
+falta de PO Token, aqui por disputa: tres pedidos simultaneos ao servidor bgutil
+e um deles nao recebe o token a tempo.
 
-- **Titulos traduzidos.** Sem `extractor_args={"youtube": {"lang": ["pt"]}}` o
-  YouTube devolve os titulos auto-traduzidos para ingles ("What happened to
-  Shein?"), que nunca casam com os arquivos em portugues no disco. O codigo de
-  idioma e `pt` — `pt-BR` e recusado pelo extractor.
-- **Acentos.** A normalizacao precisa passar por `unicodedata.normalize("NFKD")`
-  antes de jogar fora o que nao e `[a-z0-9]`. Sem isso "está" vira "est" e
-  "esta" vira "esta", e o par nao casa. Foi exatamente o que escondeu o
-  "MERCADO LIVRE virando um BANCO" na primeira rodada.
-
-A dedup por `id` e a confiavel; a por titulo so existe porque os arquivos
-baixados antes do `progress_hook` entraram no historico sem ID (`source:
-disk_scan`).
-
-## Aumentar o volume dos MP3
-
-`scripts/boost_volume.py` aplica +25% de ganho (1.25x = +1.94 dB) em todos os
-MP3 de `output/`, movendo os originais para `output_backup_pre_volume/`
-preservando a arvore de pastas.
-
-```bash
-python scripts/boost_volume.py
-```
-
-**Por que tem um limiter no meio.** Os arquivos do canal chegam com pico em
-torno de -0.4 dBFS e media em -18 dB: o que soa baixo e a media, nao o pico.
-Um `volume=1.25` puro estoura o teto e distorce. Por isso a cadeia e
-
-```
-volume=1.25,alimiter=level_in=1:level_out=1:limit=0.98:attack=5:release=50
-```
-
-O corpo do audio sobe os 25% pedidos e so os picos curtos encostam no limiter.
-Se o que voce quer e volume *consistente* entre arquivos (e nao +25% sobre cada
-um), troque a cadeia por `loudnorm=I=-16:TP=-1.5:LRA=11`.
-
-O script e resumivel: arquivo que ja tem copia em `output_backup_pre_volume/`
-e pulado, entao da para interromper e rodar de novo. O bitrate de saida
-acompanha o da origem.
-
-## Roadmap
-
-- Suporte a playlists
-- Download de video (nao apenas audio)
-- Interface CLI interativa com selecao de resultados
-- Integracao com Spotify para baixar a partir de playlists
+Nao e perda: o catalogo ja gravou os 18 que desceram, e rodar o mesmo perfil de
+novo, sequencial, pegou exatamente os 2 que faltavam. Mas se a leva for grande,
+sequencial custa pouco e nao precisa de segunda passada.

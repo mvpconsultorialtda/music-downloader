@@ -39,12 +39,19 @@ def cmd_indexar(args):
     else:
         relatorio = varredura.indexar(cat, args.raiz, args.history)
 
-    print(f'history: {relatorio["history_com_id"]} com id, '
+    print(f'history ({relatorio["history"]}): {relatorio["history_com_id"]} com id, '
           f'{relatorio["history_sem_id"]} sem id')
     print(f'disco: {relatorio["arquivos_vistos"]} arquivos de midia')
     print(f'  id lido do proprio nome ........ {relatorio["por_id_no_nome"]}')
     print(f'  id recuperado pelo history ..... {relatorio["por_history"]}')
-    print(f'  sem id, marcados incertos ...... {relatorio["sem_id"]}')
+    print(f'  sem id ......................... {relatorio["sem_id"]}')
+    print(f'      id perdido (veio do baixador e o id nao foi gravado) . '
+          f'{relatorio["id_perdido"]}')
+    print(f'      nunca foi do YouTube (sample, arquivo local) ......... '
+          f'{relatorio["nao_e_do_youtube"]}')
+    if relatorio['reclassificados']:
+        print(f'  {relatorio["reclassificados"]} entradas antigas marcadas "incerto" '
+              f'foram classificadas pelo nome guardado')
     print(f'catalogo: {antes} -> {len(cat.itens)} itens'
           + ('  (so-conferir: nada gravado)' if args.so_conferir else ''))
     return 0
@@ -74,7 +81,12 @@ def cmd_conferir(args):
         # e e a unica coisa que separa "a biblioteca esta aqui" de "o indice dela".
         print(f'  destes, {anotados_sem_arquivo} tem caminho anotado cujo arquivo '
               f'nao esta neste disco (midia fora do git)')
-    print(f'incertos (sem id, nunca terao): {len(cat.sem_id)}')
+    perdidos = sum(1 for x in cat.sem_id if x.get('situacao') == 'id-perdido')
+    locais = sum(1 for x in cat.sem_id if x.get('situacao') == 'nao-e-do-youtube')
+    outros = len(cat.sem_id) - perdidos - locais
+    print(f'sem id: {len(cat.sem_id)}  '
+          f'({perdidos} com id perdido, {locais} que nunca foram do YouTube'
+          + (f', {outros} sem classificar' if outros else '') + ')')
     print()
     print(f'{"acervo":<32} {"ids":>5} {"neste disco":>12}')
     for acervo in sorted(por_acervo):
@@ -238,7 +250,8 @@ def montar_parser():
     sub = p.add_subparsers(dest='comando', required=True)
 
     s = sub.add_parser('indexar', help='reconstroi o catalogo a partir do disco e do history')
-    s.add_argument('--history', default='history.json')
+    s.add_argument('--history', default=None,
+                   help='por padrao legado/history.json, ou history.json na raiz')
     s.add_argument('--so-conferir', action='store_true')
     s.set_defaults(func=cmd_indexar)
 

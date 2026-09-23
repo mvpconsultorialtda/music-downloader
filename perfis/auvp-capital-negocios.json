@@ -1,19 +1,36 @@
 {
   "acervo": "auvp-capital-negocios",
-  "descricao": "AUVP Capital, os videos de negocios: historia de empresa, caso de mercado, o que deu certo e o que quebrou. Substitui as pastas auvp_capital_casos e auvp_capital_2025, que eram duas batidas do mesmo acervo.",
-  "canais_permitidos": [
-    "AUVP Capital"
-  ],
+  "descricao": "AUVP Capital, os videos de negocios: historia de empresa, caso de mercado, o que deu certo e o que quebrou. E o genero das pastas auvp_capital_casos e auvp_capital_2025, que eram duas batidas do mesmo acervo. Fica de fora o que o canal tambem publica e nao e caso de empresa: macro e geopolitica (EUA, China, dolar), financas pessoais (carteira, aposentadoria, casal) e entrevista longa.",
+  "canais_permitidos": ["AUVP Capital"],
   "formato": "audio",
   "duracao_minima_minutos": 8,
-  "corte": {
-    "ativo": false
-  },
+  "corte": { "ativo": false },
   "resultados_por_busca": 10,
   "alvos": [
     "https://www.youtube.com/watch?v=pnVWzqttbJI",
     "https://www.youtube.com/watch?v=DNRZjegpjxg",
     "https://www.youtube.com/watch?v=eShIO9tAZz0",
-    "https://www.youtube.com/watch?v=MKiv4suUOOA"
+    "https://www.youtube.com/watch?v=MKiv4suUOOA",
+
+    "https://www.youtube.com/watch?v=kvNjzlEGEt0",
+    "https://www.youtube.com/watch?v=-Lo6tt-A-aQ",
+    "https://www.youtube.com/watch?v=FjdlTFIeeVk",
+    "https://www.youtube.com/watch?v=z3Dud3dWaxs",
+    "https://www.youtube.com/watch?v=IGPHekjM-TY",
+    "https://www.youtube.com/watch?v=bPuvI3tnbwM",
+    "https://www.youtube.com/watch?v=xp_SSIjZKXI",
+    "https://www.youtube.com/watch?v=ZFAaKNe3SxY",
+    "https://www.youtube.com/watch?v=j1Bfmk9jry0",
+    "https://www.youtube.com/watch?v=lAUMgDg-XmQ",
+    "https://www.youtube.com/watch?v=LCHZI30g108",
+    "https://www.youtube.com/watch?v=5VX4E2eKxd8",
+    "https://www.youtube.com/watch?v=ZF3j-0I1yN8",
+    "https://www.youtube.com/watch?v=hZIQIbUnAiE",
+    "https://www.youtube.com/watch?v=X7idypTF6us",
+    "https://www.youtube.com/watch?v=FWFRT7Sqkv8",
+    "https://www.youtube.com/watch?v=Y97K3J1ISJc",
+    "https://www.youtube.com/watch?v=LAM-cykAKCo",
+    "https://www.youtube.com/watch?v=U_qf7D4eR08",
+    "https://www.youtube.com/watch?v=n1_ECfW7Kc4"
   ]
 }

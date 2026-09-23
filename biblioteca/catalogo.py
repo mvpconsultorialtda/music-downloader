@@ -133,17 +133,27 @@ class Catalogo:
                 reg['arquivos'].append(caminho)
         return reg
 
-    def anotar_sem_id(self, titulo_arquivo, arquivo, origem='disco'):
-        """Registra o que nao tem id e nunca vai ter. Nao trava download."""
+    def anotar_sem_id(self, titulo_arquivo, arquivo, origem='disco',
+                      situacao='incerto'):
+        """Registra o que nao tem id. Nao trava download nenhum.
+
+        `situacao` separa `id-perdido` (desceu do YouTube e o id nao foi
+        gravado -- isso e perda) de `nao-e-do-youtube` (sample, arquivo local --
+        nunca teve id, e nao ter nao e defeito).
+        """
         caminho = (arquivo or '').replace('\\', '/')
         for item in self.sem_id:
             if item.get('arquivo') == caminho:
+                # `incerto` e o rotulo da primeira versao, de quando os dois
+                # casos viviam num balde so. Ver de novo e chance de melhorar.
+                if item.get('situacao') in (None, 'incerto'):
+                    item['situacao'] = situacao
                 return item
         item = {
             'titulo_arquivo': titulo_arquivo,
             'arquivo': caminho,
             'origem': origem,
-            'situacao': 'incerto',
+            'situacao': situacao,
         }
         self.sem_id.append(item)
         return item

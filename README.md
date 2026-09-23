@@ -95,9 +95,18 @@ o catálogo a partir do disco — coisa que a convenção antiga (`Título -
 }
 ```
 
-Perguntar *já temos?* é consultar uma chave. `sem_id` guarda o que veio de
-varredura antiga e nunca vai ter id: é memória fraca, **não trava download
-nenhum** — travar por título foi exatamente o defeito.
+Perguntar *já temos?* é consultar uma chave. `sem_id` guarda o que a varredura
+não conseguiu ligar a um id, e separa dois casos que nada têm em comum:
+
+| `situacao` | O quê | É defeito? |
+|---|---|---|
+| `id-perdido` | desceu do baixador (o nome termina em ` - DD-MM-AAAA`) e o id nunca foi gravado | **sim** — é o que o Defeito 2 custou |
+| `nao-e-do-youtube` | sample de música, gravação local, arquivo que alguém largou na pasta | não — nunca teve id |
+
+Somar os dois faz a biblioteca parecer mais avariada do que está: na biblioteca
+real são **15 com id perdido e 28 que nunca foram do YouTube**, não 43 "incertos".
+
+Nenhum dos dois **trava download** — travar por título foi exatamente o defeito.
 
 ### O catálogo viaja; a mídia não
 
@@ -122,7 +131,9 @@ Para reconstruir o catálogo do zero, a partir do disco e do `history.json`:
 python -m biblioteca indexar
 ```
 
-É idempotente. Rodar de novo não duplica nada, porque tudo entra por id.
+É idempotente. Rodar de novo não duplica nada, porque tudo entra por id. O
+`history.json` mora em `legado/` — ele é **fonte de migração**, não fonte da
+verdade; `indexar` ainda aceita uma cópia na raiz, para clone antigo.
 
 ## O acervo antigo
 
@@ -162,11 +173,34 @@ achar. O setup está em [`docs/DOC-TECNICO.md`](docs/DOC-TECNICO.md).
 python -m unittest discover -s testes -v
 ```
 
-32 testes, sem rede. Cada um existe porque um defeito medido existiu, e o nome
+41 testes, sem rede. Cada um existe porque um defeito medido existiu, e o nome
 do teste diz qual.
+
+## As pastas de hoje, e o acervo que elas deviam ser
+
+`output/` ainda carrega a herança de nomear pasta por **batida** em vez de por
+acervo. O que existe, e para onde vai:
+
+| Pasta hoje | Acervo | |
+|---|---|---|
+| `auvp-capital-negocios` | `auvp-capital-negocios` | já está na convenção nova |
+| `auvp_capital_casos`, `auvp_capital_2025` | `auvp-capital-negocios` | duas batidas do mesmo acervo |
+| `raul_sena`, `raul_sena_2`, `raul_sena_2025_mar`, `raul_sena_2025_new`, `raul_sena_batch5` | `raul-sena` | cinco batidas do mesmo canal |
+| `anime_ost`, `musicas` | música, não é vídeo de canal | é onde moram os 28 `nao-e-do-youtube` |
+| `avulsos`, a raiz de `output/` | sem acervo | o depósito |
+
+Perfil só se escreve quando há o que baixar — perfil vazio é estrutura
+inventada, e é assim que se acumula caixinha sem dono. `reorganizar` junta as
+pastas sem precisar de perfil nenhum.
 
 ## O que ficou para trás
 
-[`legado/`](legado/LEIA.md) — o baixador anterior, inteiro e ainda executável. A
-busca por canal, o filtro de data, o PO Token e o corte de áudio são dele; esta
-camada não refez nada disso. O que ela acrescentou foi a biblioteca em cima.
+[`legado/`](legado/LEIA.md) — o baixador anterior, inteiro e ainda executável, com
+o `history.json` e a documentação dele em
+[`legado/DOC-ANTIGO.md`](legado/DOC-ANTIGO.md). A busca por canal, o filtro de
+data, o PO Token e o corte de áudio são dele; esta camada não refez nada disso. O
+que ela acrescentou foi a biblioteca em cima.
+
+[`docs/DOC-TECNICO.md`](docs/DOC-TECNICO.md) guarda só o que o **ambiente** exige
+e continua valendo: o setup do PO Token, como conferir se um mp3 saiu truncado, e
+por que `--paralelos 3` é o teto prático.
